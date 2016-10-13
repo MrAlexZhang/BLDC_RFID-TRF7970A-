@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>980</ColumnWidth1>
+        <ColumnWidth2>261</ColumnWidth2>
+        <ColumnWidth3>65</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>195</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><MixedMode>1</MixedMode><CodeCovShow>1</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly>
+    <Watch><Format><struct_types/><watch_formats/></Format><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Watch><SYMLIST><PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></SYMLIST><Register><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Register></Static>
+    <Windows>
+      
+      
+      
+    <Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-22522-20760</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-21999-20770</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-502-20763</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>CS</ExpandedNode><ExpandedNode>CS/MAIN</ExpandedNode><ExpandedNode>CS/Output</ExpandedNode><ExpandedNode>CS/Output/CS.out</ExpandedNode><ExpandedNode>CS/RED_INFRARED</ExpandedNode><ExpandedNode>CS/RFID</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6><Tabs><Tab><Identity>TabID-14452-12049</Identity><TabName>Watch</TabName><Factory>Watch</Factory><Session><Expressions><Expression><Expression>dataarray</Expression></Expression><Expression><Expression>flagdata</Expression></Expression><Expression><Expression>currentzero</Expression></Expression><Expression><Expression>dataarray</Expression></Expression><Expression><Expression>Carddata</Expression></Expression><Expression><Expression>kvalueinstance</Expression></Expression><Expression><Expression>thresholdinstance</Expression></Expression><Expression><Expression>kvalue</Expression></Expression><Expression><Expression>IRStatus</Expression></Expression><Expression><Expression>LastIRStatus</Expression></Expression><Expression><Expression>startflag</Expression></Expression><Expression><Expression>startflag</Expression></Expression><Expression><Expression>Readcardstatus</Expression></Expression><Expression><Expression>Carddata</Expression></Expression><Expression><Expression>basketweight</Expression></Expression><Expression><Expression>weight</Expression></Expression><Expression><Expression>currentWeight</Expression></Expression><Expression><Expression>basketweight</Expression></Expression><Expression><Expression>actualweight</Expression></Expression></Expressions><TabId>0</TabId><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-7648-18346</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\FWlib2\inc\stm8s.h</Filename><XPos>0</XPos><YPos>192</YPos><SelStart>7961</SelStart><SelEnd>7961</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\lib_CR95HF.c</Filename><XPos>0</XPos><YPos>192</YPos><SelStart>7536</SelStart><SelEnd>7536</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>D:\Program Files\IAR Systems\Embedded Workbench 6.0\stm8\config\lnkstm8s105c6.icf</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>753</SelStart><SelEnd>753</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\FWlib2\src\stm8s_gpio.c</Filename><XPos>0</XPos><YPos>139</YPos><SelStart>5829</SelStart><SelEnd>5842</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\lib_iso15693.c</Filename><XPos>0</XPos><YPos>1213</YPos><SelStart>36380</SelStart><SelEnd>36380</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\spm.h</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>1942</SelStart><SelEnd>1942</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\FWlib2\src\stm8s_spi.c</Filename><XPos>0</XPos><YPos>295</YPos><SelStart>9615</SelStart><SelEnd>9615</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\HX711.c</Filename><XPos>0</XPos><YPos>102</YPos><SelStart>3946</SelStart><SelEnd>3946</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\FWlib2\src\stm8s_iwdg.c</Filename><XPos>0</XPos><YPos>72</YPos><SelStart>3042</SelStart><SelEnd>3042</SelEnd></Tab><ActiveTab>8</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\RFID.c</Filename><XPos>0</XPos><YPos>119</YPos><SelStart>3053</SelStart><SelEnd>3053</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\lib_iso15693.h</Filename><XPos>0</XPos><YPos>163</YPos><SelStart>6357</SelStart><SelEnd>6357</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\Main.c</Filename><XPos>0</XPos><YPos>499</YPos><SelStart>12769</SelStart><SelEnd>12769</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\spm.c</Filename><XPos>0</XPos><YPos>29</YPos><SelStart>663</SelStart><SelEnd>663</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\HX711.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>383</SelStart><SelEnd>383</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\drv_CR95HF.c</Filename><XPos>0</XPos><YPos>231</YPos><SelStart>5462</SelStart><SelEnd>5462</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00ebe8b8><key>iaridepm.enu1</key></Toolbar-00ebe8b8><Toolbar-09454d30><key>debuggergui.enu1</key></Toolbar-09454d30></Sizes></Row0></Top><Left><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>483</Bottom><Right>286</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>275482</sizeHorzCY><sizeVertCX>210835</sizeVertCX><sizeVertCY>668044</sizeVertCY></Rect></Wnd5></Sizes></Row0></Left><Right><Row0><Sizes><Wnd6><Rect><Top>-2</Top><Left>-2</Left><Bottom>483</Bottom><Right>186</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>275482</sizeHorzCY><sizeVertCX>137628</sizeVertCX><sizeVertCY>668044</sizeVertCY></Rect></Wnd6></Sizes></Row0><Row1><Sizes><Wnd7><Rect><Top>-2</Top><Left>184</Left><Bottom>483</Bottom><Right>384</Right><x>184</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>275482</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>668044</sizeVertCY></Rect></Wnd7></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>200</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>275482</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>275482</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

@@ -1,0 +1,80 @@
+[DebugChecksum]
+Checksum=957275184
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[BreakpointUsageDialog]
+Placement=_ 461 243 906 525
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\yaocaoqudong_IAP\project}.171.6@1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\yaocaoqudong_IAP\project}.228.6@1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\yaocaoqudong_IAP\project}.28.5@1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\yaocaoqudong_IAP\project}.444.6@1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$}.108.16@1" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$}.197.3@1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$}.165.3@1" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$\..\yaocaoqudong_IAP\project}.30.16@1" 0 0 0 0 "" 0 ""
+Bp8=_ "STD_CODE" "{$PROJ_DIR$}.364.3@1" 0 0 0 0 "" 0 ""
+Bp9=_ "STD_DATA" "Board_restart" 0 0 0 3 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\USER\Main.c}.109.1@1" 1 0 0 0 "" 0 ""
+Count=11
+[Aliases]
+A0=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_can.c" ""
+A1=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_clk.c" ""
+A2=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_exti.c" ""
+A3=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_flash.c" ""
+A4=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_gpio.c" ""
+A5=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_iwdg.c" ""
+A6=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_tim1.c" "E:\DIH 工作包\自动药槽APP\异形快发2.0嵌入式程序\yaocaoqudong\LIB\src\stm8s_tim1.c"
+A7=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_tim2.c" ""
+A8=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_tim3.c" ""
+A9=_ "F:\DIH Work\快发\Software\yaocaoqudong\LIB\src\stm8s_tim4.c" ""
+Count=10
+SuppressDialog=1

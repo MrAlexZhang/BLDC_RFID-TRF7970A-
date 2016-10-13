@@ -1,0 +1,13 @@
+---- Setsolt_info.slotmode Matches (12 in 3 files) ----
+Can.c (f:\dih work\快发\software\yaocaoqudong\user):              Setsolt_info.slotmode=msg.data[0];
+Can.c (f:\dih work\快发\software\yaocaoqudong\user):			  FLASH_ProgramByte(Slotmode_address, Setsolt_info.slotmode);
+Can.c (f:\dih work\快发\software\yaocaoqudong\user):				 if(!Setsolt_info.slotmode)
+Can.c (f:\dih work\快发\software\yaocaoqudong\user):				   if(Setsolt_info.slotmode==1)
+Can.c (f:\dih work\快发\software\yaocaoqudong\user):                          if(Setsolt_info.slotmode==1)
+Can.c (f:\dih work\快发\software\yaocaoqudong\user):		   if(((msgheadInfo_val.FRME_HEAD.SUBgroove_ID==2)||(msgheadInfo_val.FRME_HEAD.SUBgroove_ID==0))&&(Setsolt_info.slotmode==0))
+Can.c (f:\dih work\快发\software\yaocaoqudong\user):			if(Setsolt_info.slotmode==0)
+Can.c (f:\dih work\快发\software\yaocaoqudong\user):             else if(Setsolt_info.slotmode==1)
+Dirver.c (f:\dih work\快发\software\yaocaoqudong\user):						 if(Setsolt_info.slotmode==1)
+Dirver.c (f:\dih work\快发\software\yaocaoqudong\user):						   	   if(Setsolt_info.slotmode==1)
+SystemInit.C (f:\dih work\快发\software\yaocaoqudong\user):	  Setsolt_info.slotmode=FLASH_ReadByte(Slotmode_address);	  
+SystemInit.C (f:\dih work\快发\software\yaocaoqudong\user):		   if(!Setsolt_info.slotmode)

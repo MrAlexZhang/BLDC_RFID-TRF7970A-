@@ -1,0 +1,42 @@
+[DebugChecksum]
+Checksum=1012975575
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$}.113.6@1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\RFID_WIGHT_IAP_v1.7\RFID_WIGHT_IAP\project}.116.15@1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\RFID_WIGHT_IAP_v1.7\RFID_WIGHT_IAP\project}.40.3@1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\RFID_WIGHT_IAP_v1.7\RFID_WIGHT_IAP\project}.118.5@1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\..\RFID_WIGHT_IAP_v1.7\RFID_WIGHT_IAP\project}.203.2@1" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\..\RFID_WIGHT_IAP_v1.7\RFID_WIGHT_IAP\project}.499.3@1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$}.536.3@1" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$\src\Main.c}.301.1@1" 1 0 0 0 "" 0 ""
+Bp8=_ "STD_CODE" "{$PROJ_DIR$\src\Main.c}.301.1@1" 1 0 0 0 "" 0 ""
+Bp9=_ "STD_CODE" "{$PROJ_DIR$\src\Main.c}.301.1@1" 1 0 0 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\src\Main.c}.301.1@1" 1 0 0 0 "" 0 ""
+Count=11
+[Aliases]
+Count=0
+SuppressDialog=0

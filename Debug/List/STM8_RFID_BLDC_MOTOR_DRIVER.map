@@ -1,0 +1,1322 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V1.41.1.50116 for STM8                 08/Sep/2015  17:34:55 #
+# Copyright 2010-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF797 #
+#                    0A)\Debug\Exe\STM8_RFID_BLDC_MOTOR_DRIVER.out            #
+#    Map file     =  E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF797 #
+#                    0A)\Debug\List\STM8_RFID_BLDC_MOTOR_DRIVER.map           #
+#    Command line =  "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\BLDCcontral.o" "E:\百度云\DIH             #
+#                    工作包\stm8 BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\ #
+#                    MC_BLDC_Drive.o" "E:\百度云\DIH 工作包\stm8              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_BLDC_Moto #
+#                    r.o" "E:\百度云\DIH 工作包\stm8                          #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_Keys.o"   #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\MC_StateMachine.o" "E:\百度云\DIH         #
+#                    工作包\stm8 BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\ #
+#                    MC_User_Interface.o" "E:\百度云\DIH 工作包\stm8          #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_dev.o"    #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\MC_display.o" "E:\百度云\DIH 工作包\stm8  #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_pid_regul #
+#                    ators.o" "E:\百度云\DIH 工作包\stm8                      #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_stm8s_BLD #
+#                    C_drive.o" "E:\百度云\DIH 工作包\stm8                    #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_stm8s_clk #
+#                    .o" "E:\百度云\DIH 工作包\stm8                           #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_stm8s_key #
+#                    s.o" "E:\百度云\DIH 工作包\stm8                          #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_stm8s_opt #
+#                    .o" "E:\百度云\DIH 工作包\stm8                           #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_stm8s_por #
+#                    t.o" "E:\百度云\DIH 工作包\stm8                          #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_stm8s_vti #
+#                    mer.o" "E:\百度云\DIH 工作包\stm8                        #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\MC_tacho.o"  #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\MC_vtimer.o" "E:\百度云\DIH 工作包\stm8   #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\Main.o"      #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\Motorcontral.o" "E:\百度云\DIH            #
+#                    工作包\stm8 BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\ #
+#                    SystemInit.o" "E:\百度云\DIH 工作包\stm8                 #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\can.o"       #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\felica.o" "E:\百度云\DIH 工作包\stm8      #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\highdata.o"  #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\host.o" "E:\百度云\DIH 工作包\stm8        #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\initiator.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\inoutport.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\iso14443a.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\iso14443b.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\iso15693.o"  #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\nfc.o" "E:\百度云\DIH 工作包\stm8         #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\spi.o"       #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\stm8s_adc2.o" "E:\百度云\DIH 工作包\stm8  #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_awu.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_beep.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_can.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_clk.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_exti.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_flash. #
+#                    o" "E:\百度云\DIH 工作包\stm8                            #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_gpio.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_i2c.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_itc.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_iwdg.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_rst.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_spi.o" #
+#                     "E:\百度云\DIH 工作包\stm8                              #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_tim1.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_tim2.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_tim3.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_tim4.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\stm8s_wwdg.o #
+#                    " "E:\百度云\DIH 工作包\stm8                             #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\tag.o"       #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\target.o" "E:\百度云\DIH 工作包\stm8      #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\trf797x.o"   #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\type2.o" "E:\百度云\DIH 工作包\stm8       #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\uart.o"      #
+#                    "E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF79 #
+#                    70A)\Debug\Obj\vdev.o" "E:\百度云\DIH 工作包\stm8        #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\vdev_callbac #
+#                    ks.o" "E:\百度云\DIH 工作包\stm8                         #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj\vdev_ios.o"  #
+#                    --redirect _Printf=_PrintfFullNoMb --redirect            #
+#                    _Scanf=_ScanfFullNoMb -o "E:\百度云\DIH 工作包\stm8      #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Exe\STM8_RFID_BL #
+#                    DC_MOTOR_DRIVER.out" --map "E:\百度云\DIH 工作包\stm8    #
+#                    BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\List\STM8_RFID_B #
+#                    LDC_MOTOR_DRIVER.map" --config "E:\百度云\DIH            #
+#                    工作包\stm8 BLDC\firmware\BLDC_RFID(TRF7970A)\lnkstm8s20 #
+#                    8r8.icf" --config_def _CSTACK_SIZE=0x500 --config_def    #
+#                    _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = medium_or_large
+__core                     = stm8
+__data_model               = large
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A2":  place at end of [0x000000-0x0017ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0017ff] {
+          block HEAP, rw section .far.bss, rw section .far.data,
+          rw section .far.noinit, rw section .far_func.textrw,
+          rw section .huge.bss, rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A3":  place at start of [0x00a800-0x00ffff] { block INTVEC };
+"P3":  place in [from 0x00a800 to 0x00ffff] {
+          ro section .far.data_init, ro section .far_func.textrw_init,
+          ro section .huge.data_init, ro section .huge_func.textrw_init,
+          ro section .iar.init_table, ro section .init_array,
+          ro section .near.data_init, ro section .near.rodata,
+          ro section .near_func.text, ro section .near_func.textrw_init,
+          ro section .tiny.data_init, ro section .tiny.rodata_init };
+"P4":  place in [from 0x00a800 to 0x017fff] {
+          ro section .far.rodata, ro section .far_func.text };
+
+  Section            Kind      Address    Size  Object
+  -------            ----      -------    ----  ------
+"A1":                                     0x10
+  .vregs             uninit   0x000000    0x10  vregs.o [4]
+                            - 0x000010    0x10
+
+"P2", part 1 of 2:                        0x3f
+  P2 s0                       0x000010    0x3f  <Init block>
+    .near.data       inited   0x000010    0x17  MC_BLDC_Motor.o [1]
+    .near.data       inited   0x000027     0xe  MC_BLDC_Motor.o [1]
+    .near.data       inited   0x000035     0x3  MC_stm8s_BLDC_drive.o [1]
+    .near.data       inited   0x000038     0x3  MC_stm8s_BLDC_drive.o [1]
+    .near.data       inited   0x00003b     0x3  MC_stm8s_BLDC_drive.o [1]
+    .near.data       inited   0x00003e     0x3  MC_stm8s_BLDC_drive.o [1]
+    .near.data       inited   0x000041     0x3  MC_stm8s_BLDC_drive.o [1]
+    .near.data       inited   0x000044     0x3  MC_stm8s_BLDC_drive.o [1]
+    .near.data       inited   0x000047     0x2  can.o [1]
+    .near.data       inited   0x000049     0x1  MC_stm8s_BLDC_drive.o [1]
+    .near.data       inited   0x00004a     0x1  Main.o [1]
+    .near.data       inited   0x00004b     0x1  Main.o [1]
+    .near.data       inited   0x00004c     0x1  Main.o [1]
+    .near.data       inited   0x00004d     0x1  Main.o [1]
+    .near.data       inited   0x00004e     0x1  can.o [1]
+                            - 0x00004f    0x3f
+
+"P2", part 2 of 2:                       0x2ff
+  .near.bss          zero     0x00004f   0x12c  Main.o [1]
+  .near.bss          zero     0x00017b    0x37  MC_vtimer.o [1]
+  .near.bss          zero     0x0001b2    0x31  vdev.o [1]
+  .near.bss          zero     0x0001e3    0x2d  Motorcontral.o [1]
+  .near.bss          zero     0x000210    0x21  vdev.o [1]
+  .near.bss          zero     0x000231    0x14  vdev.o [1]
+  .near.bss          zero     0x000245     0xe  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000253     0xc  inoutport.o [1]
+  .near.bss          zero     0x00025f     0xc  vdev.o [1]
+  .near.bss          zero     0x00026b     0x8  can.o [1]
+  .near.bss          zero     0x000273     0x8  can.o [1]
+  .near.bss          zero     0x00027b     0x8  iso15693.o [1]
+  .near.bss          zero     0x000283     0x8  iso15693.o [1]
+  .near.bss          zero     0x00028b     0x8  iso15693.o [1]
+  .near.bss          zero     0x000293     0x8  stm8s_can.o [1]
+  .near.bss          zero     0x00029b     0x7  BLDCcontral.o [1]
+  .near.bss          zero     0x0002a2     0x4  SystemInit.o [1]
+  .near.bss          zero     0x0002a6     0x4  stm8s_can.o [1]
+  .near.bss          zero     0x0002aa     0x3  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002ad     0x3  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002b0     0x3  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002b3     0x3  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002b6     0x3  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002b9     0x3  MC_User_Interface.o [1]
+  .near.bss          zero     0x0002bc     0x3  MC_dev.o [1]
+  .near.bss          zero     0x0002bf     0x3  MC_dev.o [1]
+  .near.bss          zero     0x0002c2     0x3  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002c5     0x3  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002c8     0x3  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002cb     0x3  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002ce     0x3  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002d1     0x3  vdev.o [1]
+  .near.bss          zero     0x0002d4     0x3  vdev.o [1]
+  .near.bss          zero     0x0002d7     0x2  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002d9     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002db     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002dd     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002df     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002e1     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002e3     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002e5     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002e7     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002e9     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002eb     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002ed     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002ef     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002f1     0x2  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x0002f3     0x2  Main.o [1]
+  .near.bss          zero     0x0002f5     0x2  Main.o [1]
+  .near.bss          zero     0x0002f7     0x2  trf797x.o [1]
+  .near.bss          zero     0x0002f9     0x1  BLDCcontral.o [1]
+  .near.bss          zero     0x0002fa     0x1  BLDCcontral.o [1]
+  .near.bss          zero     0x0002fb     0x1  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002fc     0x1  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002fd     0x1  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002fe     0x1  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x0002ff     0x1  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x000300     0x1  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x000301     0x1  MC_BLDC_Drive.o [1]
+  .near.bss          zero     0x000302     0x1  MC_StateMachine.o [1]
+  .near.bss          zero     0x000303     0x1  MC_StateMachine.o [1]
+  .near.bss          zero     0x000304     0x1  MC_StateMachine.o [1]
+  .near.bss          zero     0x000305     0x1  MC_User_Interface.o [1]
+  .near.bss          zero     0x000306     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000307     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000308     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000309     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00030a     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00030b     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00030c     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00030d     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00030e     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00030f     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000310     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000311     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000312     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000313     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000314     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000315     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000316     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000317     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000318     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000319     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00031a     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00031b     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00031c     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00031d     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00031e     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00031f     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000320     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000321     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000322     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000323     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000324     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000325     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000326     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000327     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000328     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x000329     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00032a     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00032b     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00032c     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00032d     0x1  MC_stm8s_BLDC_drive.o [1]
+  .near.bss          zero     0x00032e     0x1  Main.o [1]
+  .near.bss          zero     0x00032f     0x1  Main.o [1]
+  .near.bss          zero     0x000330     0x1  Main.o [1]
+  .near.bss          zero     0x000331     0x1  Main.o [1]
+  .near.bss          zero     0x000332     0x1  Main.o [1]
+  .near.bss          zero     0x000333     0x1  Motorcontral.o [1]
+  .near.bss          zero     0x000334     0x1  Motorcontral.o [1]
+  .near.bss          zero     0x000335     0x1  Motorcontral.o [1]
+  .near.bss          zero     0x000336     0x1  Motorcontral.o [1]
+  .near.bss          zero     0x000337     0x1  Motorcontral.o [1]
+  .near.bss          zero     0x000338     0x1  Motorcontral.o [1]
+  .near.bss          zero     0x000339     0x1  Motorcontral.o [1]
+  .near.bss          zero     0x00033a     0x1  Motorcontral.o [1]
+  .near.bss          zero     0x00033b     0x1  SystemInit.o [1]
+  .near.bss          zero     0x00033c     0x1  SystemInit.o [1]
+  .near.bss          zero     0x00033d     0x1  SystemInit.o [1]
+  .near.bss          zero     0x00033e     0x1  SystemInit.o [1]
+  .near.bss          zero     0x00033f     0x1  SystemInit.o [1]
+  .near.bss          zero     0x000340     0x1  can.o [1]
+  .near.bss          zero     0x000341     0x1  can.o [1]
+  .near.bss          zero     0x000342     0x1  can.o [1]
+  .near.bss          zero     0x000343     0x1  highdata.o [1]
+  .near.bss          zero     0x000344     0x1  iso15693.o [1]
+  .near.bss          zero     0x000345     0x1  iso15693.o [1]
+  .near.bss          zero     0x000346     0x1  nfc.o [1]
+  .near.bss          zero     0x000347     0x1  spi.o [1]
+  .near.bss          zero     0x000348     0x1  stm8s_can.o [1]
+  .near.bss          zero     0x000349     0x1  stm8s_can.o [1]
+  .near.bss          zero     0x00034a     0x1  stm8s_can.o [1]
+  .near.bss          zero     0x00034b     0x1  stm8s_can.o [1]
+  .near.bss          zero     0x00034c     0x1  tag.o [1]
+  .near.bss          zero     0x00034d     0x1  target.o [1]
+                            - 0x00034e   0x2ff
+
+"A2":                                    0x500
+  CSTACK                      0x001300   0x500  <Block>
+    CSTACK           uninit   0x001300   0x500  <Block tail>
+                            - 0x001800   0x500
+
+"A3":                                     0x80
+  INTVEC                      0x00a800    0x80  <Block>
+    .intvec          const    0x00a800    0x80  interrupt.o [4]
+                            - 0x00a880    0x80
+
+"P3":                                     0x54
+  .iar.init_table    const    0x00a880    0x15  - Linker created -
+  Initializer bytes  ro data  0x00a895    0x3f  <for P2 s0>
+                            - 0x00a8d4    0x54
+
+"P4":                                   0x9b92
+  .far_func.text     ro code  0x00a8d4   0xf23  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x00b7f7   0xdff  can.o [1]
+  .far_func.text     ro code  0x00c5f6   0x812  trf797x.o [1]
+  .far_func.text     ro code  0x00ce08   0x684  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x00d48c   0x5e1  MC_pid_regulators.o [1]
+  .far_func.text     ro code  0x00da6d   0x4ec  stm8s_can.o [1]
+  .far_func.text     ro code  0x00df59   0x48d  iso15693.o [1]
+  .far_func.text     ro code  0x00e3e6   0x39d  host.o [1]
+  .far_func.text     ro code  0x00e783   0x265  stm8s_can.o [1]
+  .far_func.text     ro code  0x00e9e8   0x258  SystemInit.o [1]
+  .far_func.text     ro code  0x00ec40   0x257  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x00ee97   0x24e  Main.o [1]
+  .far_func.text     ro code  0x00f0e5   0x244  Motorcontral.o [1]
+  .far_func.text     ro code  0x00f329   0x212  long.o [4]
+  .far_func.text     ro code  0x00f53b   0x20c  float.o [4]
+  .far_func.text     ro code  0x00f747   0x1d7  stm8s_gpio.o [1]
+  .far_func.text     ro code  0x00f91e   0x1c9  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x00fae7   0x1c5  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x00fcac   0x1c1  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x00fe6d   0x1ba  Main.o [1]
+  .far_func.text     ro code  0x010027   0x1b4  vreg_util.o [4]
+  .far_func.text     ro code  0x0101db   0x1a3  stm8s_spi.o [1]
+  .far_func.text     ro code  0x01037e   0x1a2  stm8s_can.o [1]
+  .far_func.text     ro code  0x010520   0x19d  Main.o [1]
+  .far_func.text     ro code  0x0106bd   0x168  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x010825   0x168  stm8s_can.o [1]
+  .far_func.text     ro code  0x01098d   0x156  Motorcontral.o [1]
+  .far_func.text     ro code  0x010ae3   0x14d  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x010c30   0x148  inoutport.o [1]
+  .far_func.text     ro code  0x010d78   0x142  inoutport.o [1]
+  .far_func.text     ro code  0x010eba   0x140  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x010ffa   0x12e  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x011128   0x127  vdev_ios.o [1]
+  .far_func.text     ro code  0x01124f   0x11b  Main.o [1]
+  .far_func.text     ro code  0x01136a   0x113  stm8s_exti.o [1]
+  .far_func.text     ro code  0x01147d   0x10e  Main.o [1]
+  .far_func.text     ro code  0x01158b   0x106  vdev.o [1]
+  .far_func.text     ro code  0x011691    0xe5  stm8s_can.o [1]
+  .far_func.text     ro code  0x011776    0xcc  SystemInit.o [1]
+  .far_func.text     ro code  0x011842    0xc6  stm8s_tim1.o [1]
+  .far_func.text     ro code  0x011908    0xc2  can.o [1]
+  .far_func.text     ro code  0x0119ca    0xb8  stm8s_can.o [1]
+  .far_func.text     ro code  0x011a82    0xb7  Main.o [1]
+  .far_func.text     ro code  0x011b39    0xb7  Main.o [1]
+  .far_func.text     ro code  0x011bf0    0xaf  spi.o [1]
+  .far_func.text     ro code  0x011c9f    0xae  MC_vtimer.o [1]
+  .far_func.text     ro code  0x011d4d    0xa8  spi.o [1]
+  .far_func.text     ro code  0x011df5    0x9e  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x011e93    0x9a  spi.o [1]
+  .far_func.text     ro code  0x011f2d    0x9a  stm8s_can.o [1]
+  .far_func.text     ro code  0x011fc7    0x8c  Motorcontral.o [1]
+  .far_func.text     ro code  0x012053    0x83  BLDCcontral.o [1]
+  .far.rodata        const    0x0120d6    0x80  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x012156    0x7f  Motorcontral.o [1]
+  .far_func.text     ro code  0x0121d5    0x7d  stm8s_flash.o [1]
+  .far_func.text     ro code  0x012252    0x7a  MC_stm8s_opt.o [1]
+  .far_func.text     ro code  0x0122cc    0x79  MC_dev.o [1]
+  .far_func.text     ro code  0x012345    0x77  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x0123bc    0x77  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x012433    0x77  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x0124aa    0x75  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x01251f    0x75  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x012594    0x74  stm8s_flash.o [1]
+  .far_func.text     ro code  0x012608    0x73  spi.o [1]
+  .far_func.text     ro code  0x01267b    0x72  can.o [1]
+  .far_func.text     ro code  0x0126ed    0x72  spi.o [1]
+  .far_func.text     ro code  0x01275f    0x71  SystemInit.o [1]
+  .far_func.text     ro code  0x0127d0    0x71  can.o [1]
+  .far_func.text     ro code  0x012841    0x71  stm8s_tim2.o [1]
+  .far_func.text     ro code  0x0128b2    0x70  stm8s_flash.o [1]
+  .far_func.text     ro code  0x012922    0x70  long_util.o [4]
+  .far_func.text     ro code  0x012992    0x6f  stm8s_tim2.o [1]
+  .far_func.text     ro code  0x012a01    0x6f  stm8s_tim3.o [1]
+  .far_func.text     ro code  0x012a70    0x6e  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x012ade    0x6c  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x012b4a    0x6b  stm8s_tim4.o [1]
+  .far_func.text     ro code  0x012bb5    0x66  Main.o [1]
+  .far_func.text     ro code  0x012c1b    0x66  stm8s_flash.o [1]
+  .far_func.text     ro code  0x012c81    0x64  MC_stm8s_vtimer.o [1]
+  .far_func.text     ro code  0x012ce5    0x63  SystemInit.o [1]
+  .far_func.text     ro code  0x012d48    0x62  stm8s_flash.o [1]
+  .far_func.text     ro code  0x012daa    0x61  stm8s_spi.o [1]
+  .far_func.text     ro code  0x012e0b    0x5f  stm8s_tim4.o [1]
+  .far_func.text     ro code  0x012e6a    0x5d  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x012ec7    0x5c  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x012f23    0x5b  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x012f7e    0x5a  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x012fd8    0x59  SystemInit.o [1]
+  .far_func.text     ro code  0x013031    0x58  stm8s_tim3.o [1]
+  .far_func.text     ro code  0x013089    0x58  dc_util.o [4]
+  .far_func.text     ro code  0x0130e1    0x56  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x013137    0x53  MC_BLDC_Drive.o [1]
+  .far.rodata        const    0x01318a    0x52  stm8s_flash.o [1]
+  .far_func.text     ro code  0x0131dc    0x52  far_util.o [4]
+  .far.rodata        const    0x01322e    0x51  stm8s_exti.o [1]
+  .far.rodata        const    0x01327f    0x51  stm8s_gpio.o [1]
+  .far.rodata        const    0x0132d0    0x51  stm8s_tim1.o [1]
+  .far.rodata        const    0x013321    0x51  stm8s_tim2.o [1]
+  .far.rodata        const    0x013372    0x51  stm8s_tim3.o [1]
+  .far.rodata        const    0x0133c3    0x51  stm8s_tim4.o [1]
+  .far.rodata        const    0x013414    0x50  stm8s_can.o [1]
+  .far.rodata        const    0x013464    0x50  stm8s_clk.o [1]
+  .far.rodata        const    0x0134b4    0x50  stm8s_rst.o [1]
+  .far.rodata        const    0x013504    0x50  stm8s_spi.o [1]
+  .far_func.text     ro code  0x013554    0x4f  stm8s_spi.o [1]
+  .far_func.text     ro code  0x0135a3    0x4d  stm8s_flash.o [1]
+  .far_func.text     ro code  0x0135f0    0x4c  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x01363c    0x4c  stm8s_clk.o [1]
+  .far_func.text     ro code  0x013688    0x4b  stm8s_clk.o [1]
+  .far_func.text     ro code  0x0136d3    0x46  MC_stm8s_port.o [1]
+  .far_func.text     ro code  0x013719    0x45  can.o [1]
+  .far_func.text     ro code  0x01375e    0x45  inoutport.o [1]
+  .far_func.text     ro code  0x0137a3    0x45  spi.o [1]
+  .far_func.text     ro code  0x0137e8    0x45  stm8s_clk.o [1]
+  .far_func.text     ro code  0x01382d    0x45  stm8s_rst.o [1]
+  .far_func.text     ro code  0x013872    0x45  stm8s_tim1.o [1]
+  .far_func.text     ro code  0x0138b7    0x45  stm8s_tim2.o [1]
+  .far_func.text     ro code  0x0138fc    0x45  stm8s_tim3.o [1]
+  .far_func.text     ro code  0x013941    0x45  stm8s_tim4.o [1]
+  .far_func.text     ro code  0x013986    0x45  stm8s_tim4.o [1]
+  .far_func.text     ro code  0x0139cb    0x42  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x013a0d    0x42  init.o [4]
+  .far_func.text     ro code  0x013a4f    0x41  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x013a90    0x3f  stm8s_flash.o [1]
+  .far_func.text     ro code  0x013acf    0x3b  short.o [4]
+  .far_func.text     ro code  0x013b0a    0x3a  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x013b44    0x3a  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x013b7e    0x3a  MC_vtimer.o [1]
+  .far_func.text     ro code  0x013bb8    0x38  Motorcontral.o [1]
+  .far_func.text     ro code  0x013bf0    0x38  stm8s_gpio.o [1]
+  .far_func.text     ro code  0x013c28    0x38  uart.o [1]
+  .far_func.text     ro code  0x013c60    0x37  MC_vtimer.o [1]
+  .far_func.text     ro code  0x013c97    0x37  stm8s_flash.o [1]
+  .far_func.text     ro code  0x013cce    0x36  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x013d04    0x36  iso15693.o [1]
+  .far_func.text     ro code  0x013d3a    0x33  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x013d6d    0x33  stm8s_tim2.o [1]
+  .far_func.text     ro code  0x013da0    0x33  stm8s_tim3.o [1]
+  .far_func.text     ro code  0x013dd3    0x32  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x013e05    0x32  MC_stm8s_vtimer.o [1]
+  .far_func.text     ro code  0x013e37    0x30  MC_vtimer.o [1]
+  .far_func.text     ro code  0x013e67    0x2f  stm8s_can.o [1]
+  .far_func.text     ro code  0x013e96    0x2f  stm8s_tim4.o [1]
+  .far_func.text     ro code  0x013ec5    0x2d  SystemInit.o [1]
+  .far_func.text     ro code  0x013ef2    0x2c  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x013f1e    0x2b  MC_StateMachine.o [1]
+  .far_func.text     ro code  0x013f49    0x2a  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x013f73    0x2a  init.o [4]
+  .far_func.text     ro code  0x013f9d    0x29  stm8s_flash.o [1]
+  .far_func.text     ro code  0x013fc6    0x24  SystemInit.o [1]
+  .far_func.text     ro code  0x013fea    0x23  SystemInit.o [1]
+  .far_func.text     ro code  0x01400d    0x22  SystemInit.o [1]
+  .far_func.text     ro code  0x01402f    0x22  SystemInit.o [1]
+  .far_func.text     ro code  0x014051    0x20  SystemInit.o [1]
+  .far_func.text     ro code  0x014071    0x20  stm8s_tim4.o [1]
+  .far.rodata        const    0x014091    0x1e  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x0140af    0x1e  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x0140cd    0x1e  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x0140eb    0x1e  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x014109    0x1e  init.o [4]
+  .far_func.text     ro code  0x014127    0x1c  SystemInit.o [1]
+  .far_func.text     ro code  0x014143    0x1c  stm8s_spi.o [1]
+  .far_func.text     ro code  0x01415f    0x1a  __dbg_xxexit.o [3]
+  .far_func.text     ro code  0x014179    0x19  MC_vtimer.o [1]
+  .far_func.text     ro code  0x014192    0x18  vdev_ios.o [1]
+  .far_func.text     ro code  0x0141aa    0x17  MC_dev.o [1]
+  .far_func.text     ro code  0x0141c1    0x17  MC_dev.o [1]
+  .far_func.text     ro code  0x0141d8    0x17  SystemInit.o [1]
+  .far_func.text     ro code  0x0141ef    0x17  cstartup.o [4]
+  .far_func.text     ro code  0x014206    0x16  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x01421c    0x15  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x014231    0x15  stm8s_tim2.o [1]
+  .far_func.text     ro code  0x014246    0x15  stm8s_tim3.o [1]
+  .far.rodata        const    0x01425b    0x14  can.o [1]
+  .far_func.text     ro code  0x01426f    0x13  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x014282    0x13  SystemInit.o [1]
+  .far_func.text     ro code  0x014295    0x13  move.o [4]
+  .far_func.text     ro code  0x0142a8    0x12  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x0142ba    0x11  can.o [1]
+  .far_func.text     ro code  0x0142cb    0x11  stm8s_gpio.o [1]
+  .far_func.text     ro code  0x0142dc    0x11  stm8s_tim3.o [1]
+  .far_func.text     ro code  0x0142ed    0x10  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x0142fd    0x10  MC_dev.o [1]
+  .far_func.text     ro code  0x01430d     0xf  SystemInit.o [1]
+  .far_func.text     ro code  0x01431c     0xe  stm8s_gpio.o [1]
+  .far.rodata        const    0x01432a     0xd  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x014337     0xd  stm8s_gpio.o [1]
+  .far_func.text     ro code  0x014344     0xd  stm8s_gpio.o [1]
+  .far.rodata        const    0x014351     0xc  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x01435d     0xc  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x014369     0xb  stm8s_clk.o [1]
+  .far_func.text     ro code  0x014374     0xb  stm8s_exti.o [1]
+  .far_func.text     ro code  0x01437f     0xb  init.o [4]
+  .far_func.text     ro code  0x01438a     0xa  MC_User_Interface.o [1]
+  .far_func.text     ro code  0x014394     0xa  far.o [4]
+  .far_func.text     ro code  0x01439e     0x9  uart.o [1]
+  .far.rodata        const    0x0143a7     0x8  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x0143af     0x8  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x0143b7     0x8  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x0143bf     0x8  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x0143c7     0x8  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x0143cf     0x8  vdev.o [1]
+  .far_func.text     ro code  0x0143d7     0x7  MC_User_Interface.o [1]
+  .far_func.text     ro code  0x0143de     0x7  stm8s_can.o [1]
+  .far_func.text     ro code  0x0143e5     0x7  stm8s_iwdg.o [1]
+  .far.rodata        const    0x0143ec     0x6  MC_BLDC_Motor.o [1]
+  .far.rodata        const    0x0143f2     0x6  MC_BLDC_Motor.o [1]
+  .far.rodata        const    0x0143f8     0x6  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x0143fe     0x6  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x014404     0x6  MC_stm8s_BLDC_drive.o [1]
+  .far.rodata        const    0x01440a     0x6  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x014410     0x6  char.o [4]
+  .far_func.text     ro code  0x014416     0x6  cexit.o [4]
+  .far_func.text     ro code  0x01441c     0x5  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x014421     0x5  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x014426     0x5  stm8s_can.o [1]
+  .far_func.text     ro code  0x01442b     0x5  stm8s_can.o [1]
+  .far_func.text     ro code  0x014430     0x4  MC_User_Interface.o [1]
+  .far_func.text     ro code  0x014434     0x4  stm8s_can.o [1]
+  .far_func.text     ro code  0x014438     0x4  trf797x.o [1]
+  .far_func.text     ro code  0x01443c     0x4  interrupt.o [4]
+  .far_func.text     ro code  0x014440     0x4  exit.o [4]
+  .far.rodata        const    0x014444     0x3  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x014447     0x3  MC_BLDC_Drive.o [1]
+  .far_func.text     ro code  0x01444a     0x3  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x01444d     0x3  low_level_init.o [4]
+  .far_func.text     ro code  0x014450     0x3  unhandled_exception.o [4]
+  .far.rodata        const    0x014453     0x2  MC_BLDC_Motor.o [1]
+  .far_func.text     ro code  0x014455     0x2  MC_Keys.o [1]
+  .far_func.text     ro code  0x014457     0x2  Main.o [1]
+  .far_func.text     ro code  0x014459     0x2  vdev_callbacks.o [1]
+  .far_func.text     ro code  0x01445b     0x2  vdev_ios.o [1]
+  .far_func.text     ro code  0x01445d     0x2  vdev_ios.o [1]
+  .far_func.text     ro code  0x01445f     0x2  vdev_ios.o [1]
+  .far_func.text     ro code  0x014461     0x2  vdev_ios.o [1]
+  .far_func.text     ro code  0x014463     0x1  MC_stm8s_BLDC_drive.o [1]
+  .far_func.text     ro code  0x014464     0x1  MC_stm8s_keys.o [1]
+  .far_func.text     ro code  0x014465     0x1  __dbg_break.o [3]
+                            - 0x014466  0x9b92
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0x2ff:
+          0x00004f  0x2ff
+
+Copy (__iar_copy_init2)
+    1 source range, total size 0x3f:
+          0x00a895   0x3f
+    1 destination range, total size 0x3f:
+          0x000010   0x3f
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj: [1]
+    BLDCcontral.o              131                 9
+    MC_BLDC_Drive.o          1 338                24
+    MC_BLDC_Motor.o            962       88       37
+    MC_Keys.o                    2
+    MC_StateMachine.o          891                 3
+    MC_User_Interface.o         21                 4
+    MC_dev.o                   183                 6
+    MC_pid_regulators.o      1 505
+    MC_stm8s_BLDC_drive.o    7 850      331      114
+    MC_stm8s_keys.o              1
+    MC_stm8s_opt.o             122
+    MC_stm8s_port.o             70
+    MC_stm8s_vtimer.o          150
+    MC_vtimer.o                360                55
+    Main.o                   2 468        4      313
+    Motorcontral.o           1 245                53
+    SystemInit.o             1 406                 9
+    can.o                    4 090       23       22
+    highdata.o                                     1
+    host.o                     925
+    inoutport.o                719                12
+    iso15693.o               1 219                26
+    nfc.o                                          1
+    spi.o                      795                 1
+    stm8s_can.o              3 286       80       16
+    stm8s_clk.o                231       80
+    stm8s_exti.o               286       81
+    stm8s_flash.o              789       82
+    stm8s_gpio.o               584       81
+    stm8s_iwdg.o                 7
+    stm8s_rst.o                 69       80
+    stm8s_spi.o                623       80
+    stm8s_tim1.o               267       81
+    stm8s_tim2.o               365       81
+    stm8s_tim3.o               357       81
+    stm8s_tim4.o               419       81
+    tag.o                                          1
+    target.o                                       1
+    trf797x.o                2 070                 2
+    uart.o                      65
+    vdev.o                     270               120
+    vdev_callbacks.o             2
+    vdev_ios.o                 327
+    ------------------------------------------------
+    Total:                  36 470    1 334      830
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8mld.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              26
+    ------------------------------------------------
+    Total:                      27
+
+dlstm8mln.a: [4]
+    cexit.o                      6
+    char.o                       6
+    cstartup.o                  23
+    dc_util.o                   88
+    exit.o                       4
+    far.o                       10
+    far_util.o                  82
+    float.o                    524
+    init.o                     149
+    interrupt.o                  4      128
+    long.o                     530
+    long_util.o                112
+    low_level_init.o             3
+    move.o                      19
+    short.o                     59
+    unhandled_exception.o        3
+    vreg_util.o                436
+    vregs.o                                       16
+    ------------------------------------------------
+    Total:                   2 058      128       16
+
+    Linker created                       21    1 280
+----------------------------------------------------
+    Grand Total:            38 555    1 483    2 126
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address   Size  Type      Object
+-----                    -------   ----  ----      ------
+?add32_l0_l0_0x         0x00f34a         Code  Gb  long.o [4]
+?add32_l0_l0_l1         0x00f347         Code  Gb  long.o [4]
+?and32_l0_l0_0x         0x00f4db         Code  Gb  long.o [4]
+?and32_l0_l0_l1         0x00f4d8         Code  Gb  long.o [4]
+?b0                     0x000000         Data  Gb  vregs.o [4]
+?b1                     0x000001         Data  Gb  vregs.o [4]
+?b10                    0x00000a         Data  Gb  vregs.o [4]
+?b11                    0x00000b         Data  Gb  vregs.o [4]
+?b12                    0x00000c         Data  Gb  vregs.o [4]
+?b13                    0x00000d         Data  Gb  vregs.o [4]
+?b14                    0x00000e         Data  Gb  vregs.o [4]
+?b15                    0x00000f         Data  Gb  vregs.o [4]
+?b2                     0x000002         Data  Gb  vregs.o [4]
+?b3                     0x000003         Data  Gb  vregs.o [4]
+?b4                     0x000004         Data  Gb  vregs.o [4]
+?b5                     0x000005         Data  Gb  vregs.o [4]
+?b6                     0x000006         Data  Gb  vregs.o [4]
+?b7                     0x000007         Data  Gb  vregs.o [4]
+?b8                     0x000008         Data  Gb  vregs.o [4]
+?b9                     0x000009         Data  Gb  vregs.o [4]
+?dc32_l0                0x013089         Code  Gb  dc_util.o [4]
+?dc32_l1                0x0130b5         Code  Gb  dc_util.o [4]
+?dec32_0x_0x            0x00f333         Code  Gb  long.o [4]
+?dec32_l0_l0            0x00f329         Code  Gb  long.o [4]
+?dec32_l1_l1            0x00f32e         Code  Gb  long.o [4]
+?e0                     0x000001         Data  Gb  vregs.o [4]
+?e1                     0x000005         Data  Gb  vregs.o [4]
+?e2                     0x000009         Data  Gb  vregs.o [4]
+?e3                     0x00000d         Data  Gb  vregs.o [4]
+?epilogue_l2            0x010160         Code  Gb  vreg_util.o [4]
+?epilogue_l2_l3         0x01015c         Code  Gb  vreg_util.o [4]
+?epilogue_l2_w6         0x010165         Code  Gb  vreg_util.o [4]
+?epilogue_w4            0x01016e         Code  Gb  vreg_util.o [4]
+?fcastf32u16_l0_x       0x00f606         Code  Gb  float.o [4]
+?fcasts16f32_x_l0       0x00f624         Code  Gb  float.o [4]
+?fdiv32_l0_dc32_l1      0x00f552         Code  Gb  float.o [4]
+?fdiv32_l0_l0_l1        0x00f558         Code  Gb  float.o [4]
+?l0                     0x000000         Data  Gb  vregs.o [4]
+?l1                     0x000004         Data  Gb  vregs.o [4]
+?l2                     0x000008         Data  Gb  vregs.o [4]
+?l3                     0x00000c         Data  Gb  vregs.o [4]
+?load24_0x_e0           0x013204         Code  Gb  far_util.o [4]
+?load24_0x_e1           0x013212         Code  Gb  far_util.o [4]
+?load24_0x_e2           0x013220         Code  Gb  far_util.o [4]
+?load24_e0_0x           0x0131dc         Code  Gb  far_util.o [4]
+?load24_e1_0x           0x0131f6         Code  Gb  far_util.o [4]
+?load24_e1_asp          0x0131ea         Code  Gb  far_util.o [4]
+?load24_e1_xsp          0x0131ec         Code  Gb  far_util.o [4]
+?load32_0x_l0           0x012984         Code  Gb  long_util.o [4]
+?load32_l0_0x           0x01293c         Code  Gb  long_util.o [4]
+?load32_l0_asp          0x012930         Code  Gb  long_util.o [4]
+?load32_l0_dbsp         0x012922         Code  Gb  long_util.o [4]
+?load32_l0_xsp          0x012932         Code  Gb  long_util.o [4]
+?load32_l1_0x           0x012962         Code  Gb  long_util.o [4]
+?load32_l1_asp          0x012956         Code  Gb  long_util.o [4]
+?load32_l1_dbsp         0x012948         Code  Gb  long_util.o [4]
+?load32_l1_xsp          0x012958         Code  Gb  long_util.o [4]
+?load32_l3_0x           0x01296e         Code  Gb  long_util.o [4]
+?load32_xsp_l0          0x01297a         Code  Gb  long_util.o [4]
+?mov_e0_e1              0x010176         Code  Gb  vreg_util.o [4]
+?mov_e0_e2              0x010183         Code  Gb  vreg_util.o [4]
+?mov_e0_e3              0x010190         Code  Gb  vreg_util.o [4]
+?mov_e1_e0              0x01019d         Code  Gb  vreg_util.o [4]
+?mov_e1_e2              0x0101aa         Code  Gb  vreg_util.o [4]
+?mov_e1_e3              0x0101b7         Code  Gb  vreg_util.o [4]
+?mov_e2_e0              0x0101c4         Code  Gb  vreg_util.o [4]
+?mov_e3_e0              0x0101d1         Code  Gb  vreg_util.o [4]
+?mov_l0_l1              0x010173         Code  Gb  vreg_util.o [4]
+?mov_l0_l2              0x010180         Code  Gb  vreg_util.o [4]
+?mov_l0_l3              0x01018d         Code  Gb  vreg_util.o [4]
+?mov_l1_l0              0x01019a         Code  Gb  vreg_util.o [4]
+?mov_l1_l2              0x0101a7         Code  Gb  vreg_util.o [4]
+?mov_l1_l3              0x0101b4         Code  Gb  vreg_util.o [4]
+?mov_l2_l0              0x0101c1         Code  Gb  vreg_util.o [4]
+?mov_l3_l0              0x0101ce         Code  Gb  vreg_util.o [4]
+?mov_w1_w3              0x010179         Code  Gb  vreg_util.o [4]
+?mov_w1_w5              0x010186         Code  Gb  vreg_util.o [4]
+?mov_w1_w7              0x010193         Code  Gb  vreg_util.o [4]
+?mov_w3_w1              0x0101a0         Code  Gb  vreg_util.o [4]
+?mov_w3_w5              0x0101ad         Code  Gb  vreg_util.o [4]
+?mov_w3_w7              0x0101ba         Code  Gb  vreg_util.o [4]
+?mov_w5_w1              0x0101c7         Code  Gb  vreg_util.o [4]
+?mov_w7_w1              0x0101d4         Code  Gb  vreg_util.o [4]
+?move1624_v_x_e0_y      0x014295         Code  Gb  move.o [4]
+?mul16_x_x_w0           0x013acf         Code  Gb  short.o [4]
+?mul32_l0_l0_l1         0x00f37d         Code  Gb  long.o [4]
+?or32_l0_l0_0x          0x00f4f6         Code  Gb  long.o [4]
+?or32_l0_l0_l1          0x00f4f3         Code  Gb  long.o [4]
+?pop_e2                 0x0100c2         Code  Gb  vreg_util.o [4]
+?pop_e3                 0x0100d1         Code  Gb  vreg_util.o [4]
+?pop_l0                 0x010124         Code  Gb  vreg_util.o [4]
+?pop_l1                 0x01012f         Code  Gb  vreg_util.o [4]
+?pop_l2                 0x01013a         Code  Gb  vreg_util.o [4]
+?pop_l3                 0x010145         Code  Gb  vreg_util.o [4]
+?pop_w0                 0x01004d         Code  Gb  vreg_util.o [4]
+?pop_w4                 0x010054         Code  Gb  vreg_util.o [4]
+?pop_w6                 0x01005b         Code  Gb  vreg_util.o [4]
+?push_e1                0x01006e         Code  Gb  vreg_util.o [4]
+?push_e2                0x01008a         Code  Gb  vreg_util.o [4]
+?push_e3                0x0100a6         Code  Gb  vreg_util.o [4]
+?push_l0                0x0100ef         Code  Gb  vreg_util.o [4]
+?push_l1                0x0100f4         Code  Gb  vreg_util.o [4]
+?push_l2                0x0100f9         Code  Gb  vreg_util.o [4]
+?push_l3                0x0100fe         Code  Gb  vreg_util.o [4]
+?push_w0                0x010027         Code  Gb  vreg_util.o [4]
+?push_w4                0x01002c         Code  Gb  vreg_util.o [4]
+?push_w6                0x010031         Code  Gb  vreg_util.o [4]
+?scmp32_c_l0_l1         0x00f4c1         Code  Gb  long.o [4]
+?sdiv32_l0_dl_l1        0x00f46c         Code  Gb  long.o [4]
+?sdiv32_l0_l0_dl        0x00f472         Code  Gb  long.o [4]
+?sdiv32_l0_l0_l1        0x00f476         Code  Gb  long.o [4]
+?sext16_x_a             0x013b03         Code  Gb  short.o [4]
+?sext32_l0_x            0x00f530         Code  Gb  long.o [4]
+?sll16_x_x_4            0x013af7         Code  Gb  short.o [4]
+?sll16_x_x_5            0x013af6         Code  Gb  short.o [4]
+?sll16_x_x_6            0x013af5         Code  Gb  short.o [4]
+?sll16_x_x_a            0x013aed         Code  Gb  short.o [4]
+?sll32_0x_0x_a          0x00f511         Code  Gb  long.o [4]
+?sll32_l0_l0_a          0x00f50e         Code  Gb  long.o [4]
+?sll8_a_a_5             0x014411         Code  Gb  char.o [4]
+?sll8_a_a_6             0x014410         Code  Gb  char.o [4]
+?smod32_l1_l0_l1        0x00f476         Code  Gb  long.o [4]
+?srl16_x_x_4            0x013afe         Code  Gb  short.o [4]
+?srl16_x_x_5            0x013afd         Code  Gb  short.o [4]
+?srl16_x_x_6            0x013afc         Code  Gb  short.o [4]
+?srl32_0x_0x_a          0x00f522         Code  Gb  long.o [4]
+?srl32_l0_l0_a          0x00f51f         Code  Gb  long.o [4]
+?sub32_l0_l0_0x         0x00f365         Code  Gb  long.o [4]
+?sub32_l0_l0_l1         0x00f362         Code  Gb  long.o [4]
+?ucmp24_c_0x_e0         0x014394         Code  Gb  far.o [4]
+?udiv32_l0_l0_dl        0x00f3fb         Code  Gb  long.o [4]
+?udiv32_l0_l0_l1        0x00f3ff         Code  Gb  long.o [4]
+?umod32_l1_l0_l1        0x00f3ff         Code  Gb  long.o [4]
+?w0                     0x000000         Data  Gb  vregs.o [4]
+?w1                     0x000002         Data  Gb  vregs.o [4]
+?w2                     0x000004         Data  Gb  vregs.o [4]
+?w3                     0x000006         Data  Gb  vregs.o [4]
+?w4                     0x000008         Data  Gb  vregs.o [4]
+?w5                     0x00000a         Data  Gb  vregs.o [4]
+?w6                     0x00000c         Data  Gb  vregs.o [4]
+?w7                     0x00000e         Data  Gb  vregs.o [4]
+ADC2_IRQHandler         0x00b6cb   0xcb  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+ADC_Async_State         0x000309    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+ADC_Buffer              0x000245    0xe  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+ADC_Sync_State          0x000049    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+AlignRotor              0x00d1ef  0x263  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+Align_Index             0x000315    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Align_State             0x000313    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Align_Target            0x000314    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Average_Zero_Cross_Time
+                        0x0002e3    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+BEMFSteps               0x000041    0x3  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+BEMFSteps_CCW           0x01435d    0xc  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+BEMFSteps_CW            0x014351    0xc  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+BEMF_Falling_Factor     0x000318    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+BEMF_Rising_Factor      0x000319    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+BLDCDelayCoefComputation
+                        0x010eba  0x140  Code  Gb  MC_BLDC_Drive.o [1]
+BLDC_Drive              0x00fcac  0x1c1  Code  Gb  MC_BLDC_Drive.o [1]
+BLDC_Get_Duty_cycle     0x012f23   0x5b  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_Get_Measured_rotor_speed
+                        0x013f49   0x2a  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_Get_Speed_KD       0x01251f   0x75  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_Get_Speed_KI       0x0124aa   0x75  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_Get_Speed_KP       0x012ade   0x6c  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_RUN_STATE_FLAG     0x000342    0x1  Data  Gb  can.o [1]
+BLDC_SYSINIT            0x012053   0x83  Code  Gb  BLDCcontral.o [1]
+BLDC_Set_Duty_cycle     0x0135f0   0x4c  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_Set_Speed_KD       0x0123bc   0x77  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_Set_Speed_KI       0x012345   0x77  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_Set_Speed_KP       0x012a70   0x6e  Code  Gb  MC_BLDC_Motor.o [1]
+BLDC_Set_Target_rotor_speed
+                        0x013ef2   0x2c  Code  Gb  MC_BLDC_Motor.o [1]
+BootStrap               0x00d452   0x3a  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+CAN_Command_exectue     0x00b7f7  0xdff  Code  Gb  can.o [1]
+CAN_Command_flag        0x00033e    0x1  Data  Gb  SystemInit.o [1]
+CAN_DeInit              0x011f2d   0x9a  Code  Gb  stm8s_can.o [1]
+CAN_FIFORelease         0x0143de    0x7  Code  Gb  stm8s_can.o [1]
+CAN_FilterInit          0x00da6d  0x4ec  Code  Gb  stm8s_can.o [1]
+CAN_GetReceivedDLC      0x014434    0x4  Code  Gb  stm8s_can.o [1]
+CAN_GetReceivedData     0x013e67   0x2f  Code  Gb  stm8s_can.o [1]
+CAN_GetSelectedPage     0x014426    0x5  Code  Gb  stm8s_can.o [1]
+CAN_ITConfig            0x0119ca   0xb8  Code  Gb  stm8s_can.o [1]
+CAN_Init                0x01037e  0x1a2  Code  Gb  stm8s_can.o [1]
+CAN_Init_Conf           0x011908   0xc2  Code  Gb  can.o [1]
+CAN_OperatingModeRequest
+                        0x011691   0xe5  Code  Gb  stm8s_can.o [1]
+CAN_Receive             0x010825  0x168  Code  Gb  stm8s_can.o [1]
+CAN_Rx_Interrupt        0x01267b   0x72  Code  Gb  can.o [1]
+CAN_SelectPage          0x01442b    0x5  Code  Gb  stm8s_can.o [1]
+CAN_Transmit            0x00e783  0x265  Code  Gb  stm8s_can.o [1]
+CAN_Transmit_Conf       0x013719   0x45  Code  Gb  can.o [1]
+CLK_ClockSecuritySystemEnable
+                        0x014369    0xb  Code  Gb  stm8s_clk.o [1]
+CLK_DeInit              0x01363c   0x4c  Code  Gb  stm8s_clk.o [1]
+CLK_HSICmd              0x0137e8   0x45  Code  Gb  stm8s_clk.o [1]
+CLK_HSIPrescalerConfig  0x013688   0x4b  Code  Gb  stm8s_clk.o [1]
+CLK_INIT                0x014282   0x13  Code  Gb  SystemInit.o [1]
+CLR_MEMORY              0x014051   0x20  Code  Gb  SystemInit.o [1]
+CSTACK$$Base            0x001300          --   Gb  - Linker created -
+CSTACK$$Limit           0x001800          --   Gb  - Linker created -
+ComHandler              0x00a8d4  0x4c6  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+Commutate_Motor         0x012433   0x77  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+Commutation_Time        0x0002dd    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+CurrentLimitCnt         0x0002e7    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Current_BEMF            0x00030b    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Current_BEMF_Channel    0x00030c    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Current_Step            0x00030a    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+DelayCoefAdjust         0x00cf04   0x4b  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+DriveState              0x0002fe    0x1  Data  Lc  MC_BLDC_Drive.o [1]
+DriveStatus             0x0002ff    0x1  Data  Lc  MC_BLDC_Drive.o [1]
+Driver1_step            0x00033d    0x1  Data  Gb  SystemInit.o [1]
+EEPROM_INIT             0x01430d    0xf  Code  Gb  SystemInit.o [1]
+EXTI_DeInit             0x014374    0xb  Code  Gb  stm8s_exti.o [1]
+EXTI_INIT               0x01400d   0x22  Code  Gb  SystemInit.o [1]
+EXTI_SetExtIntSensitivity
+                        0x01136a  0x113  Code  Gb  stm8s_exti.o [1]
+Enable_ADC_BEMF_Sampling
+                        0x01441c    0x5  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+Enable_ADC_Current_Sampling
+                        0x014421    0x5  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+Enable_ADC_User_Sync_Sampling
+                        0x00b7f2    0x5  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+FLASH_DeInit            0x013f9d   0x29  Code  Gb  stm8s_flash.o [1]
+FLASH_Lock              0x013c97   0x37  Code  Gb  stm8s_flash.o [1]
+FLASH_ProgramByte       0x0128b2   0x70  Code  Gb  stm8s_flash.o [1]
+FLASH_ProgramOptionByte
+                        0x0121d5   0x7d  Code  Gb  stm8s_flash.o [1]
+FLASH_ReadByte          0x012c1b   0x66  Code  Gb  stm8s_flash.o [1]
+FLASH_ReadOptionByte    0x012594   0x74  Code  Gb  stm8s_flash.o [1]
+FLASH_SetProgrammingTime
+                        0x013a90   0x3f  Code  Gb  stm8s_flash.o [1]
+FLASH_Unlock            0x0135a3   0x4d  Code  Gb  stm8s_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x012d48   0x62  Code  Gb  stm8s_flash.o [1]
+Fast_Demag_Steps        0x00003e    0x3  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Fast_Demag_Steps_CCW    0x0140eb   0x1e  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Fast_Demag_Steps_CW     0x0140af   0x1e  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+FaultingState           0x000303    0x1  Data  Lc  MC_StateMachine.o [1]
+GPIO_DeInit             0x013bf0   0x38  Code  Gb  stm8s_gpio.o [1]
+GPIO_INIT               0x00e9e8  0x258  Code  Gb  SystemInit.o [1]
+GPIO_Init               0x00f747  0x1d7  Code  Gb  stm8s_gpio.o [1]
+GPIO_ReadInputData      0x014344    0xd  Code  Gb  stm8s_gpio.o [1]
+GPIO_ReadInputPin       0x0142cb   0x11  Code  Gb  stm8s_gpio.o [1]
+GPIO_WriteHigh          0x014337    0xd  Code  Gb  stm8s_gpio.o [1]
+GPIO_WriteLow           0x01431c    0xe  Code  Gb  stm8s_gpio.o [1]
+GetSpeed_01HZ           0x013a4f   0x41  Code  Gb  MC_BLDC_Drive.o [1]
+GetStepTime             0x00b7dd   0x15  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+Get_BLDC_Struct         0x01426f   0x13  Code  Gb  MC_BLDC_Motor.o [1]
+Hall_Timeout            0x00b4ce   0x14  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+HostRequestCommand      0x00e3e6  0x39d  Code  Gb  host.o [1]
+INPUT_PORT_INITINAL     0x01375e   0x45  Code  Gb  inoutport.o [1]
+INTVEC$$Base            0x00a800          --   Gb  - Linker created -
+INTVEC$$Limit           0x00a880          --   Gb  - Linker created -
+IWDG_ReloadCounter      0x0143e5    0x7  Code  Gb  stm8s_iwdg.o [1]
+Init_MC_Port            0x0136d7   0x42  Code  Gb  MC_stm8s_port.o [1]
+Init_TIM1               0x00b632   0x99  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+Init_TIM2               0x00b5b3   0x7f  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+Iso15693Anticollision   0x00df59  0x48d  Code  Gb  iso15693.o [1]
+Iso15693FindTag         0x013d04   0x36  Code  Gb  iso15693.o [1]
+LED_OPTION_DATA         0x00033f    0x1  Data  Gb  SystemInit.o [1]
+LED_OPTION_PROCESS      0x012fd8   0x59  Code  Gb  SystemInit.o [1]
+LS_Conf                 0x000307    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_GPIO_BOOT            0x00ce08   0x1f  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_GPIO_BRAKE           0x00ce27   0x1f  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_GPIO_MANAGE          0x00ce65   0x9f  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_GPIO_OFF             0x00ce46   0x1f  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_Steps                0x000035    0x3  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_Steps_CCW            0x014404    0x6  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_Steps_CW             0x0143f8    0x6  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_Steps_SW             0x000038    0x3  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_Steps_SW_CCW         0x01440a    0x6  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+LS_Steps_SW_CW          0x0143fe    0x6  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+LastSwitchedCom         0x0002e5    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Last_Zero_Cross_Count   0x000311    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+MAIN_TASK_PROCESS       0x01147d  0x10e  Code  Gb  Main.o [1]
+MOTOR_INITIAL           0x011fc7   0x8c  Code  Gb  Motorcontral.o [1]
+MTC_Status              0x00030d    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Motor_Frequency         0x0002ed    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Motor_Stall_Count       0x00031a    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+PC_bug_job              0x0142ba   0x11  Code  Gb  can.o [1]
+PI_Regulator            0x00d48c  0x5e1  Code  Gb  MC_pid_regulators.o [1]
+PORTA_IRQHandler        0x011a82   0xb7  Code  Gb  Main.o [1]
+PORTB_IRQHandler        0x00fe6d  0x1ba  Code  Gb  Main.o [1]
+PORTC_IRQHandler        0x00c71a   0xa4  Code  Gb  trf797x.o [1]
+PORTD_IRQHandler        0x012156   0x7f  Code  Gb  Motorcontral.o [1]
+PORTE_IRQHandler        0x011b39   0xb7  Code  Gb  Main.o [1]
+PhaseSteps              0x00003b    0x3  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+PhaseSteps_CCW          0x0140cd   0x1e  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+PhaseSteps_CW           0x014091   0x1e  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Phase_State             0x00030e    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Previous_Zero_Cross_Time
+                        0x0002e1    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+RAMP_TABLE              0x0120d6   0x80  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+RST_ClearFlag           0x01382d   0x45  Code  Gb  stm8s_rst.o [1]
+Ramp_Step               0x00030f    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Region$$Table$$Base     0x00a880          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00a895          --   Gb  - Linker created -
+Respond_flag            0x00004e    0x1  Data  Gb  can.o [1]
+SIGNAL_IN_FILTER        0x010d78  0x142  Code  Gb  inoutport.o [1]
+SPI_Cmd                 0x01355e   0x45  Code  Gb  stm8s_spi.o [1]
+SPI_DeInit              0x014143   0x1c  Code  Gb  stm8s_spi.o [1]
+SPI_GetFlagStatus       0x012daa   0x61  Code  Gb  stm8s_spi.o [1]
+SPI_Init                0x0101db  0x1a3  Code  Gb  stm8s_spi.o [1]
+SPI_ReceiveData         0x013554    0x5  Code  Gb  stm8s_spi.o [1]
+SPI_SendData            0x013559    0x5  Code  Gb  stm8s_spi.o [1]
+SPM_MESSAGE_OUT         0x0127d0   0x71  Code  Gb  can.o [1]
+STEP_MOTOR_PWM_CNT      0x00033a    0x1  Data  Gb  Motorcontral.o [1]
+SYSTEMInit              0x011776   0xcc  Code  Gb  SystemInit.o [1]
+SendByte_to_hc595       0x01275f   0x71  Code  Gb  SystemInit.o [1]
+Set_Duty                0x00cf4f   0x94  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+SetbeltInfo_val         0x000341    0x1  Data  Gb  can.o [1]
+SpeedMeasurement        0x00b796   0x47  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+SpiDirectCommand        0x0126ed   0x72  Code  Gb  spi.o [1]
+SpiRawWrite             0x012608   0x73  Code  Gb  spi.o [1]
+SpiReadCont             0x011d4d   0xa8  Code  Gb  spi.o [1]
+SpiReadSingle           0x011bf0   0xaf  Code  Gb  spi.o [1]
+SpiSetup                0x0137a3   0x45  Code  Gb  spi.o [1]
+SpiWriteSingle          0x011e93   0x9a  Code  Gb  spi.o [1]
+StartMotor              0x00cfe3  0x20c  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+StartUpExecution        0x000321    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+StartUpStatus           0x000308    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+StateMachineExec        0x010ffa  0x12e  Code  Gb  MC_StateMachine.o [1]
+StopMotor               0x0139cb   0x42  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+TIM1_Cmd                0x013872   0x45  Code  Gb  stm8s_tim1.o [1]
+TIM1_DeInit             0x011842   0xc6  Code  Gb  stm8s_tim1.o [1]
+TIM1_UPD_OVF_TRG_BRK_IRQHandler
+                        0x010ae3  0x14d  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+TIM2_CAP_COM_IRQHandler
+                        0x00b2b4  0x21a  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+TIM2_ClearITPendingBit  0x013d6d   0x33  Code  Gb  stm8s_tim2.o [1]
+TIM2_Cmd                0x0138b7   0x45  Code  Gb  stm8s_tim2.o [1]
+TIM2_DeInit             0x012841   0x71  Code  Gb  stm8s_tim2.o [1]
+TIM2_ITConfig           0x012992   0x6f  Code  Gb  stm8s_tim2.o [1]
+TIM2_InitCapturePolarity
+                        0x00b4e2   0xd1  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+TIM2_TimeBaseInit       0x014231   0x15  Code  Gb  stm8s_tim2.o [1]
+TIM2_UPD_OVF_IRQHandler
+                        0x012bb5   0x66  Code  Gb  Main.o [1]
+TIM3_ClearITPendingBit  0x013da0   0x33  Code  Gb  stm8s_tim3.o [1]
+TIM3_Cmd                0x0138fc   0x45  Code  Gb  stm8s_tim3.o [1]
+TIM3_DeInit             0x013031   0x58  Code  Gb  stm8s_tim3.o [1]
+TIM3_ITConfig           0x012a01   0x6f  Code  Gb  stm8s_tim3.o [1]
+TIM3_SetCounter         0x0142dc   0x11  Code  Gb  stm8s_tim3.o [1]
+TIM3_TimeBaseInit       0x014246   0x15  Code  Gb  stm8s_tim3.o [1]
+TIM3_UPD_OVF_BRK_IRQHandler
+                        0x00ee97  0x24e  Code  Gb  Main.o [1]
+TIM3_USERFOR_BLDC_OR_STEPMOTOR_FLAG
+                        0x000339    0x1  Data  Gb  Motorcontral.o [1]
+TIM4_ARRPreloadConfig   0x013986   0x45  Code  Gb  stm8s_tim4.o [1]
+TIM4_ClearITPendingBit  0x013e96   0x2f  Code  Gb  stm8s_tim4.o [1]
+TIM4_Cmd                0x013941   0x45  Code  Gb  stm8s_tim4.o [1]
+TIM4_DeInit             0x014071   0x20  Code  Gb  stm8s_tim4.o [1]
+TIM4_FUNCTION_FLAG      0x00033c    0x1  Data  Gb  SystemInit.o [1]
+TIM4_ITConfig           0x012b4a   0x6b  Code  Gb  stm8s_tim4.o [1]
+TIM4_OVR_UIF_vector     0x012c81   0x64  Code  Gb  MC_stm8s_vtimer.o [1]
+TIM4_TimeBaseInit       0x012e0b   0x5f  Code  Gb  stm8s_tim4.o [1]
+TIMER2_INIT             0x014127   0x1c  Code  Gb  SystemInit.o [1]
+TIMER3_INIT             0x013ec5   0x2d  Code  Gb  SystemInit.o [1]
+TIMER4_INIT             0x013fc6   0x24  Code  Gb  SystemInit.o [1]
+TRF_INITIAL_DONE        0x00032e    0x1  Data  Gb  Main.o [1]
+Trf797xCommunicationSetup
+                        0x014438    0x4  Code  Gb  trf797x.o [1]
+Trf797xDirectCommand    0x00ce04    0x4  Code  Gb  trf797x.o [1]
+Trf797xDisableSlotCounter
+                        0x00cdc8   0x3c  Code  Gb  trf797x.o [1]
+Trf797xISR              0x00cb30  0x21d  Code  Gb  trf797x.o [1]
+Trf797xInitialSettings  0x00cd4d   0x7b  Code  Gb  trf797x.o [1]
+Trf797xNFCmodeISR       0x00ca2d  0x103  Code  Gb  trf797x.o [1]
+Trf797xRawWrite         0x00c716    0x4  Code  Gb  trf797x.o [1]
+Trf797xReadCont         0x00c712    0x4  Code  Gb  trf797x.o [1]
+Trf797xReadIrqStatus    0x00c6f8   0x1a  Code  Gb  trf797x.o [1]
+Trf797xReadSingle       0x00c6f4    0x4  Code  Gb  trf797x.o [1]
+Trf797xReset            0x00c6e5    0xf  Code  Gb  trf797x.o [1]
+Trf797xResetIrqStatus   0x00c6ca   0x1b  Code  Gb  trf797x.o [1]
+Trf797xRunDecoders      0x00c6bb    0xf  Code  Gb  trf797x.o [1]
+Trf797xStopDecoders     0x00c6ac    0xf  Code  Gb  trf797x.o [1]
+Trf797xTargetISR        0x00c7be  0x26f  Code  Gb  trf797x.o [1]
+Trf797xTransmitNextSlot
+                        0x00c69d    0xf  Code  Gb  trf797x.o [1]
+Trf797xTurnRfOff        0x00c66b   0x32  Code  Gb  trf797x.o [1]
+Trf797xTurnRfOn         0x00c631   0x3a  Code  Gb  trf797x.o [1]
+Trf797xWriteIsoControl  0x00c5fa   0x37  Code  Gb  trf797x.o [1]
+Trf797xWriteSingle      0x00c5f6    0x4  Code  Gb  trf797x.o [1]
+UartNibble2Ascii        0x01439e    0x9  Code  Gb  uart.o [1]
+UartPutByte             0x013c29   0x37  Code  Gb  uart.o [1]
+UartPutChar             0x013c28    0x1  Code  Gb  uart.o [1]
+UserInterface_Fault     0x014430    0x4  Code  Gb  MC_User_Interface.o [1]
+UserInterface_Lock      0x0143d7    0x7  Code  Gb  MC_User_Interface.o [1]
+UserInterface_Unlock    0x01438a    0xa  Code  Gb  MC_User_Interface.o [1]
+Z_Detection_Type        0x000312    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Zero_Cross_Count        0x000310    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Zero_Cross_Time         0x0002df    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+Zero_Sample_Count       0x0002eb    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+_DLC                    0x00034a    0x1  Data  Gb  stm8s_can.o [1]
+_Data                   0x000293    0x8  Data  Gb  stm8s_can.o [1]
+_FMI                    0x00034b    0x1  Data  Gb  stm8s_can.o [1]
+_IDE                    0x000348    0x1  Data  Gb  stm8s_can.o [1]
+_Id                     0x0002a6    0x4  Data  Gb  stm8s_can.o [1]
+_Merge_16Bit            0x01402f   0x22  Code  Gb  SystemInit.o [1]
+_Merge_32Bit            0x012ce5   0x63  Code  Gb  SystemInit.o [1]
+_RTR                    0x000349    0x1  Data  Gb  stm8s_can.o [1]
+__DebugBreak            0x014465    0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x01415f   0x1a  Code  Gb  __dbg_xxexit.o [3]
+__iar_copy_init2        0x013a0d   0x42  Code  Gb  init.o [4]
+__iar_data_init2        0x014109   0x1e  Code  Gb  init.o [4]
+__iar_program_start     0x0141ef         Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x014450         Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x013f73   0x2a  Code  Gb  init.o [4]
+__intvec                0x00a800         Data  Gb  interrupt.o [4]
+__low_level_init        0x01444d    0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x014416         Code  Gb  cexit.o [4]
+_interrupt_1            0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_10           0x01267b         Code  Gb  can.o [1]
+_interrupt_11           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_12           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_13           0x010ae3         Code  Gb  MC_stm8s_BLDC_drive.o [1]
+_interrupt_14           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_15           0x012bb5         Code  Gb  Main.o [1]
+_interrupt_16           0x00b2b4         Code  Gb  MC_stm8s_BLDC_drive.o [1]
+_interrupt_17           0x00ee97         Code  Gb  Main.o [1]
+_interrupt_18           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_19           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_2            0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_20           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_21           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_22           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_23           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_24           0x00b6cb         Code  Gb  MC_stm8s_BLDC_drive.o [1]
+_interrupt_25           0x012c81         Code  Gb  MC_stm8s_vtimer.o [1]
+_interrupt_26           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_27           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_28           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_29           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_3            0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_30           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_31           0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_4            0x01443c         Code  Wk  interrupt.o [4]
+_interrupt_5            0x011a82         Code  Gb  Main.o [1]
+_interrupt_6            0x00fe6d         Code  Gb  Main.o [1]
+_interrupt_7            0x00c71a         Code  Gb  trf797x.o [1]
+_interrupt_8            0x012156         Code  Gb  Motorcontral.o [1]
+_interrupt_9            0x011b39         Code  Gb  Main.o [1]
+a_b_pwm_flag            0x000335    0x1  Data  Gb  Motorcontral.o [1]
+active                  0x000346    0x1  Data  Gb  nfc.o [1]
+actual_tag_data         0x000283    0x8  Data  Gb  iso15693.o [1]
+afi                     0x000344    0x1  Data  Gb  iso15693.o [1]
+assert_failed           0x014457    0x2  Code  Gb  Main.o [1]
+bCurrentLimitationActive
+                        0x000323    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bEnableSoftwareCounter  0x000322    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bErrorCode              0x000305    0x1  Data  Lc  MC_User_Interface.o [1]
+bHallError              0x000301    0x1  Data  Gb  MC_BLDC_Drive.o [1]
+bHallStartStep          0x00031b    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+bHallSteps              0x000044    0x3  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+bHallSteps_CCW          0x0143af    0x8  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+bHallSteps_CW           0x0143a7    0x8  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+bHztoRPM                0x0002fc    0x1  Data  Gb  MC_BLDC_Drive.o [1]
+bSpeed_PID_sampling_time
+                        0x0002fd    0x1  Data  Gb  MC_BLDC_Drive.o [1]
+bState                  0x000302    0x1  Data  Lc  MC_StateMachine.o [1]
+bTIM1_CCER1_actual      0x000329    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCER1_preload     0x000324    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCER2_actual      0x00032a    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCER2_preload     0x000325    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCMR1_actual      0x00032b    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCMR1_preload     0x000326    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCMR2_actual      0x00032c    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCMR2_preload     0x000327    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCMR3_actual      0x00032d    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bTIM1_CCMR3_preload     0x000328    0x1  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+bValidatedMeasuredSpeed
+                        0x000300    0x1  Data  Lc  MC_BLDC_Drive.o [1]
+bldc_fault_code         0x0002fa    0x1  Data  Gb  BLDCcontral.o [1]
+bldc_fault_flag         0x0002f9    0x1  Data  Gb  BLDCcontral.o [1]
+bldc_soft_start         0x00ad9a  0x51a  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+bldc_soft_start_cnt     0x000306    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+boardID                 0x0002a2    0x4  Data  Gb  SystemInit.o [1]
+board_type              0x00004d    0x1  Data  Lc  Main.o [1]
+buf                     0x00004f  0x12c  Data  Gb  Main.o [1]
+c_d_pwm_flag            0x000336    0x1  Data  Gb  Motorcontral.o [1]
+cap_index               0x000316    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+cap_val                 0x0002e9    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+command                 0x0002f7    0x2  Data  Gb  trf797x.o [1]
+cylindermotorstatus     0x00029b    0x7  Data  Gb  BLDCcontral.o [1]
+delay_ms                0x013fea   0x23  Code  Gb  SystemInit.o [1]
+delay_us                0x0141d8   0x17  Code  Gb  SystemInit.o [1]
+devChkHWErr             0x0141aa   0x17  Code  Gb  MC_dev.o [1]
+devChkHWErrClr          0x0142fd   0x10  Code  Gb  MC_dev.o [1]
+devChkHWErrEnd          0x0141c1   0x17  Code  Gb  MC_dev.o [1]
+devInit                 0x0122cc   0x79  Code  Gb  MC_dev.o [1]
+dev_BLDC_driveUpdate    0x0130e1   0x56  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+dev_driveIdle           0x014463    0x1  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+dev_driveInit           0x00ec40  0x257  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+dev_driveRun            0x014206   0x16  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+dev_driveStartUp        0x00f91e  0x1c9  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+dev_driveStartUpInit    0x00fae7  0x1c5  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+dev_driveStop           0x011df5   0x9e  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+dev_driveWait           0x01444a    0x3  Code  Gb  MC_stm8s_BLDC_drive.o [1]
+dev_keysInit            0x014464    0x1  Code  Gb  MC_stm8s_keys.o [1]
+dev_optInit             0x012252   0x7a  Code  Gb  MC_stm8s_opt.o [1]
+dev_portInit            0x0136d3    0x4  Code  Gb  MC_stm8s_port.o [1]
+dev_vtimerInit          0x013e05   0x32  Code  Gb  MC_stm8s_vtimer.o [1]
+device                  0x0001b2   0x31  Data  Lc  vdev.o [1]
+direct_mode             0x000343    0x1  Data  Gb  highdata.o [1]
+driveFault              0x014447    0x3  Code  Gb  MC_BLDC_Drive.o [1]
+driveIdle               0x0143b7    0x8  Code  Gb  MC_BLDC_Drive.o [1]
+driveInit               0x0106bd  0x168  Code  Gb  MC_BLDC_Drive.o [1]
+driveRun                0x0142a8   0x12  Code  Gb  MC_BLDC_Drive.o [1]
+driveStartUp            0x0143bf    0x8  Code  Gb  MC_BLDC_Drive.o [1]
+driveStartUpInit        0x013137   0x53  Code  Gb  MC_BLDC_Drive.o [1]
+driveStop               0x0142ed   0x10  Code  Gb  MC_BLDC_Drive.o [1]
+driveWait               0x0143c7    0x8  Code  Gb  MC_BLDC_Drive.o [1]
+exit                    0x014440    0x4  Code  Gb  exit.o [4]
+first_cap               0x000317    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+flags                   0x000345    0x1  Data  Gb  iso15693.o [1]
+fncallback_divby0       0x014459    0x2  Code  Gb  vdev_callbacks.o [1]
+g_pBLDC_Struct          0x0002c5    0x3  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+g_pDevice               0x0002c2    0x3  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+g_pMotorVar             0x0002aa    0x3  Data  Lc  MC_BLDC_Drive.o [1]
+g_pMotorVar             0x0002c8    0x3  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+g_pPID_Speed            0x0002ad    0x3  Data  Gb  MC_BLDC_Drive.o [1]
+g_pUserInterface        0x0002b9    0x3  Data  Gb  MC_User_Interface.o [1]
+g_pdevice               0x0002b0    0x3  Data  Lc  MC_BLDC_Drive.o [1]
+g_vdevcallback          0x0002d4    0x3  Data  Lc  vdev.o [1]
+g_vdevmem8              0x000210   0x21  Data  Lc  vdev.o [1]
+g_vdevreg16             0x000231   0x14  Data  Lc  vdev.o [1]
+g_vdevreg32             0x0002d1    0x3  Data  Lc  vdev.o [1]
+g_vdevreg8              0x00025f    0xc  Data  Lc  vdev.o [1]
+hArrPwmVal              0x014453    0x2  Data  Lc  MC_BLDC_Motor.o [1]
+hCntDeadDtime           0x0002db    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+hDutyCntTh              0x0002d9    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+hTim3Cnt                0x0002ef    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+hTim3Th                 0x0002f1    0x2  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+i_reg                   0x00004a    0x1  Data  Gb  Main.o [1]
+input_task              0x01124f  0x11b  Code  Gb  Main.o [1]
+irq_flag                0x00032f    0x1  Data  Gb  Main.o [1]
+keysProcess             0x014455    0x2  Code  Gb  MC_Keys.o [1]
+main                    0x010520  0x19d  Code  Gb  Main.o [1]
+mcu_run_indicate_cnt    0x000047    0x2  Data  Gb  can.o [1]
+motor_move_ctrol        0x01098d  0x156  Code  Gb  Motorcontral.o [1]
+motor_move_mode_contral
+                        0x013bb8   0x38  Code  Gb  Motorcontral.o [1]
+msg                     0x00026b    0x8  Data  Gb  can.o [1]
+msgheadInfo_val         0x000340    0x1  Data  Gb  can.o [1]
+msgout                  0x000273    0x8  Data  Gb  can.o [1]
+nfc_protocol            0x00034d    0x1  Data  Gb  target.o [1]
+nfc_state               0x0002f3    0x2  Data  Gb  Main.o [1]
+output_port_opteration  0x010c30  0x148  Code  Gb  inoutport.o [1]
+pBLDC_Struct            0x014444    0x3  Data  Lc  MC_BLDC_Motor.o [1]
+pDutyCycleCounts_reg    0x0002b6    0x3  Data  Lc  MC_BLDC_Drive.o [1]
+pDutyCycleCounts_reg    0x0002ce    0x3  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+pHWerrorActual_reg      0x0002bf    0x3  Data  Lc  MC_dev.o [1]
+pHWerrorOccurred_reg    0x0002bc    0x3  Data  Lc  MC_dev.o [1]
+pcounter_reg            0x0002b3    0x3  Data  Lc  MC_BLDC_Drive.o [1]
+pcounter_reg            0x0002cb    0x3  Data  Lc  MC_stm8s_BLDC_drive.o [1]
+reader_mode             0x000332    0x1  Data  Gb  Main.o [1]
+remote_flag             0x000331    0x1  Data  Gb  Main.o [1]
+rfid_delay_protect      0x00028b    0x8  Data  Gb  iso15693.o [1]
+rx_error_flag           0x000330    0x1  Data  Gb  Main.o [1]
+rxtx_state              0x00004b    0x1  Data  Gb  Main.o [1]
+sBLDC_Const             0x01432a    0xd  Data  Lc  MC_BLDC_Motor.o [1]
+sBLDC_Struct            0x0143f2    0x6  Data  Lc  MC_BLDC_Motor.o [1]
+sBLDC_Var               0x000010   0x17  Data  Lc  MC_BLDC_Motor.o [1]
+sPID_SPEED              0x0143ec    0x6  Data  Lc  MC_BLDC_Motor.o [1]
+sPID_SPEED_Const        0x01421c   0x15  Data  Lc  MC_BLDC_Motor.o [1]
+sPID_SPEED_Var          0x000027    0xe  Data  Lc  MC_BLDC_Motor.o [1]
+sVtimer                 0x00017b   0x37  Data  Lc  MC_vtimer.o [1]
+signal_input_state      0x000253    0xc  Data  Gb  inoutport.o [1]
+sm_fault                0x013dd3   0x32  Code  Gb  MC_StateMachine.o [1]
+sm_faultover            0x013cce   0x36  Code  Gb  MC_StateMachine.o [1]
+sm_idle                 0x013f1e   0x2b  Code  Gb  MC_StateMachine.o [1]
+sm_reset                0x013d3a   0x33  Code  Gb  MC_StateMachine.o [1]
+sm_run                  0x012e6a   0x5d  Code  Gb  MC_StateMachine.o [1]
+sm_start                0x012f7e   0x5a  Code  Gb  MC_StateMachine.o [1]
+sm_startinit            0x012ec7   0x5c  Code  Gb  MC_StateMachine.o [1]
+sm_stop                 0x013b0a   0x3a  Code  Gb  MC_StateMachine.o [1]
+sm_wait                 0x013b44   0x3a  Code  Gb  MC_StateMachine.o [1]
+speed_measure_start_cnt
+                        0x0002d7    0x2  Data  Lc  MC_BLDC_Drive.o [1]
+stand_alone_flag        0x00004c    0x1  Data  Gb  Main.o [1]
+start_flag              0x0002fb    0x1  Data  Lc  MC_BLDC_Drive.o [1]
+step_frequency_calt_start_flag
+                        0x000338    0x1  Data  Gb  Motorcontral.o [1]
+step_motor_fault_code   0x000333    0x1  Data  Gb  Motorcontral.o [1]
+step_motor_fault_flag   0x000334    0x1  Data  Gb  Motorcontral.o [1]
+step_motor_parameter_initial
+                        0x00f0e5  0x244  Code  Gb  Motorcontral.o [1]
+step_motor_start_up_parameter
+                        0x0001e3   0x2d  Data  Gb  Motorcontral.o [1]
+t3_pwm_cnt              0x000337    0x1  Data  Gb  Motorcontral.o [1]
+tag_data                0x00027b    0x8  Data  Gb  iso15693.o [1]
+tag_flag                0x00034c    0x1  Data  Gb  tag.o [1]
+tasknum                 0x00033b    0x1  Data  Gb  SystemInit.o [1]
+temp                    0x000347    0x1  Data  Gb  spi.o [1]
+tmp_TIM1_CCER1          0x00031f    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+tmp_TIM1_CCER2          0x000320    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+tmp_TIM1_CCMR1          0x00031c    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+tmp_TIM1_CCMR2          0x00031d    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+tmp_TIM1_CCMR3          0x00031e    0x1  Data  Gb  MC_stm8s_BLDC_drive.o [1]
+vdev_fninp16            0x01445b    0x2  Code  Gb  vdev_ios.o [1]
+vdev_fninp32            0x01445d    0x2  Code  Gb  vdev_ios.o [1]
+vdev_fninp8             0x014192   0x18  Code  Gb  vdev_ios.o [1]
+vdev_fnout16            0x01445f    0x2  Code  Gb  vdev_ios.o [1]
+vdev_fnout32            0x014461    0x2  Code  Gb  vdev_ios.o [1]
+vdev_fnout8             0x011128  0x127  Code  Gb  vdev_ios.o [1]
+vdev_get                0x0143cf    0x8  Code  Gb  vdev.o [1]
+vdev_init               0x01158b  0x106  Code  Gb  vdev.o [1]
+vtimer_KillTimer        0x013e37   0x30  Code  Gb  MC_vtimer.o [1]
+vtimer_SetTimer         0x013c60   0x37  Code  Gb  MC_vtimer.o [1]
+vtimer_TimerElapsed     0x014179   0x19  Code  Gb  MC_vtimer.o [1]
+vtimer_UpdateHandler    0x011c9f   0xae  Code  Gb  MC_vtimer.o [1]
+vtimer_init             0x013b7e   0x3a  Code  Gb  MC_vtimer.o [1]
+
+
+[1] = E:\百度云\DIH 工作包\stm8 BLDC\firmware\BLDC_RFID(TRF7970A)\Debug\Obj
+[2] = command line
+[3] = dbgstm8mld.a
+[4] = dlstm8mln.a
+
+  38 555 bytes of readonly  code memory
+   1 483 bytes of readonly  data memory
+   2 126 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

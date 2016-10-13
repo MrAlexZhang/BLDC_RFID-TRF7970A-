@@ -1,0 +1,261 @@
+ 
+/************************************************************************************************************************
+                版权所有 :无锡士康通信技术有限公司
+
+*************************************************************************************************************************
+       文件名:Globe.h
+       
+       功能描述:
+       
+	版本号:V2-00-01		
+       作者 : Zhu Jianlou       
+       日期:
+   
+
+************************************************************************************************************************/
+
+/**************************************************************************/
+#ifndef __DECL__DPMR_H__
+#define __DECL__DPMR_H__ 
+
+#include <math.h>
+#include <string.h>
+
+//用户定义使用数据类型
+typedef unsigned char 	State,BOOL;
+typedef unsigned char	uint8,BYTE,U8;
+typedef unsigned short	uint16,WORD,U16;
+typedef unsigned int    uint32,U32;
+
+
+/************************************************************共享头文件*************************************/
+
+
+#include "stm32f10x.h"
+
+#include "SCTInterFace.h"
+#include "sys.h" 
+#include "Timer.h"	
+#include "MCUInit.h"
+	   
+#include "SPI.h"
+#include "HPIPort.h"
+#include "smbus.h"
+#include "usart.h"	
+#include "Adc.h"
+
+#include "Router.h"
+#include "Function.h"
+#include "Key.h"
+
+//#define SCT3918
+
+
+
+/********************************************************************************************************************/
+
+
+/*消息循环相关-------------------------------------------------*/
+#define MESSAGECOUNT 8;
+
+/*--------------------------------------------------------------------
+函数全称：十进制强制转换为十六进制
+函数功能：
+注意事项：
+提示说明：调用changeIntToHex（33），return (dec/10*16 + dec%10) = 0x33
+输    入：
+返    回：
+--------------------------------------------------------------------*/
+#define changeIntToHex(dec)		( ( ((dec)/10) <<4 ) + ((dec)%10) )
+
+/*--------------------------------------------------------------------
+函数全称：十六进制强制转换为十进制
+函数功能：
+注意事项：传参必须为 unsigned 类型，否则移位结果可能吓你一跳
+提示说明：调用changeHexToInt（0x33），return (hex/16*10 + hex%16) = 33
+输    入：
+返    回：
+--------------------------------------------------------------------*/
+#define changeHexToInt(hex)		( ( ((hex) >> 4) * 10 ) + ((hex) % 16) )
+
+/*--------------------------------------------------------------------
+函数全称：十进制化为十六进制，并以十六进制格式返回
+函数功能：
+注意事项：传参必须为 unsigned 类型，否则移位结果可能吓你一跳
+提示说明：调用converseIntToHex（47），return (dec/16*10 + dec%16) = 0x2F
+输    入：
+返    回：
+--------------------------------------------------------------------*/
+#define converseIntToHex(dec)	( ( ((dec) >> 4) * 10 ) + ((dec) % 16) )
+
+/*--------------------------------------------------------------------
+函数全称：十六进制化为十进制，，并以十六进制格式返回
+函数功能：
+注意事项：
+提示说明：调用converseHexToInt（0x2F），return 47
+输    入：
+返    回：
+--------------------------------------------------------------------*/
+#define converseHexToInt(hex)	( ( ((hex) / 10) << 4 ) + ((hex) % 10) )
+
+/******************************************/
+#define nop()   __nop()
+
+
+ #ifdef SCT3918	
+#define R_LED                            PDout(3)
+#define G_LED                           PDout(4)
+#define  TX_CTRL                       PDout(2)  //发射电源控制
+#define  RX_CTRL                       PEout(2)  //接收电源控制
+#define  BEEP_OUT                     PAout(3)   //beep PWM
+#define  AF_MODE                      PAout(11)  //音频功放控制
+#define  MIC_MUTE                    PAout(12)   //语音输入控制
+#define  AF_MUTE                      PCout(7)    //codec SPKOUT 控制1为关闭语音
+
+
+#define  APC_SW                        PDout(0)  //射频功率控制切换
+#define  DC_SW                          PDout(1)   //RF_PA偏置放电控制
+
+
+#define BEEP_OUT                     PAout(3)
+
+#define PTT                                PEin(0)    //PPT 按键
+#define FUNKEY1                        PEin(1)   //报警按键
+#define FUNKEY2                        PBin(7)   //VOX 打开
+#define FUNKEY3                        PBin(8)   //高低功率切换
+
+#define KEY_5                             PBin(9)
+
+#define EN0                                PDin(5)
+#define EN1                                PDin(6)
+#define EN2                                PDin(7)
+#define EN3                                PBin(3)
+
+
+#define  INT0                              PDout(9)  
+#define  HCSN                             PDout(10)  
+#define  HWRN                            PDout(11)  
+#define  HRDN                             PDout(12)  
+#define  RSTN                             PDout(14)   
+#define  NIMI                              PDout(15)  
+#define  PLLBYPASS                    PBout(11)   
+#define  PLLSEL                           PBout(10)   
+
+#define  PIO1                              PCout(8)  
+#define  PIO3                              PCin(9) 
+#define  PIO3N                            PCin(6) 
+
+#define  HOBIBOUT                      PDout(13)   //PDout(13)
+#define  HOBIBIN                        PDin(13)     //PDin(13)
+#define HPIOUT(x)                      GPIOE->ODR=((GPIOE->ODR&0x00FF)|(x<<8|0x00FF)) //输出 PE8~PE15
+#define HPIIN                               GPIOE->IDR>>8   //输入
+
+
+//24CXX操作端口	 
+#define IIC_SCL                          PCout(4) //SCL
+#define IIC_SDA                         PCout(5) //SDA	 
+#define READ_SDA                      PCin(5)  //输入SDA 
+#define IIC_WP                           PAout(7) //WP
+
+//1847 SPI
+
+#define RDA_SENB                     PAout(15)
+#define RDA_MODE                    PCout(10)
+#define RDA_PDN                       PCout(12)  //RDA1847片选
+#define RDA_SCLK                      PBout(13)  //RDA1847 CLK     
+#define RDA_SQL                        PCin(11)
+
+
+#define SPI_MOSI                      PBout(15)
+#define SPI_MISO                      PBout(14)
+#define LCD_RST                        PDout(8)   //LCD 复位  
+#define LCD_CS                          PBout(12) 
+#define LCD_B                            PAout(8) 
+
+#else 
+
+#define R_LED                            PEout(13)
+#define G_LED                            PEout(12)
+#define  PIO1                             PAout(8)
+#define  PIO3                            PCin(9) 
+#define  PIO3N                          PCin(6) 
+#define  BEEP_OUT                     PAout(3)   //beep PWM
+
+
+//24CXX操作端口	 
+#define IIC_SCL                         PCout(4) //SCL
+#define IIC_SDA                        PCout(5) //SDA	 
+#define READ_SDA                     PCin(5)  //输入SDA 
+#define IIC_WP                          PAout(7) //WP
+
+
+
+#define PTT                                PEin(0)    //PPT 按键
+#define FUNKEY1                       PEin(1)   //报警按键
+#define FUNKEY2                       PBin(8)   //VOX 打开
+#define FUNKEY3                       PBin(9)   //高低功率切换
+#define EN0                               PBin(11)
+#define EN1                               PBin(10)
+#define EN2                               PEin(15)
+#define EN3                               PEin(14)
+
+
+#define RDA_PDN                       PBout(12)  //RDA1847片选
+#define RDA_SENB                     PAout(15)
+#define RDA_MODE                    PCout(10)
+#define RDA_SCLK                     PBout(13)  //RDA1847 CLK     
+#define RDA_SQL                       PCin(3)
+
+
+#define  TX_CTRL                        PBout(14)  //发射电源控制 TX:HIGH   RX:LOW
+#define  RX_CTRL                        PAout(15)  //接收电源控制TX:LOW   RX:HIGH
+#define  DC_SW                          PBout(15)   //RF_PA偏置放电控制  TX:LOW   RX:HIGH
+#define  APC_SW                        PBout(13)  //射频功率控制切换TX:HIGH(enable APC)   RX:LOW
+#define  TX_PS                           PDout(8)   //PA偏置控制TX:HIGH   RX:LOW
+#define  EN_OP                           PAout(2)   // IQ信号控制TX:LOW   RX:HIGH
+#define  AF_MUTE                       PEout(7)    //codec SPKOUT 控制1为关闭语 音 TX:HIGH   RX:LOW
+#define  AF_MODE                      PEout(8)  //音频功放控制  TX:LOW   RX:HIGH
+#define  MIC_MUTE                     PEout(9)   //语音输入控制   TX:LOW   RX:HIGH
+
+#define  MIC_EN                         PEin(10)  //HIGH when the Ext mic is inserted
+#define   EXT_PTT                       PEin(11)  //HIGH when the Ext PTT is pressed
+
+#define  INT0                              PDout(9)  
+#define  HCSN                             PDout(10)  
+#define  HWRN                            PDout(11)  
+#define  HRDN                             PDout(12)  
+#define  RSTN                             PDout(14)   
+#define  NIMI                             PDout(15)  
+#define  PLLBYPASS                   PBout(4)   
+#define  PLLSEL                          PBout(3)  
+#define  HOBIBOUT                    PDout(13)   //PDout(13)
+#define  HOBIBIN                       PDin(13)     //PDin(13)
+
+#define HPIOUT(x)                      GPIOD->ODR=((GPIOD->ODR&0xFF00)|(x))//输出 PD0~PD7
+#define HPIIN                               GPIOD->IDR //输入
+
+
+//1847 SPI
+
+ 
+#define SPI_MOSI                    PBout(15)
+#define SPI_MISO                    PBout(14)
+#define LCD_RST                     PDout(8)   //LCD 复位  
+#define LCD_CS                       PBout(12) 
+#define LCD_B                         PAout(8) 
+
+#endif
+
+
+
+
+extern uint32 Sicom_StringLength(uint8 * s);
+extern BYTE *Sicom_Memcpy(BYTE *dst,BYTE *src,BYTE n) ;
+extern State Sicom_Memcmp(BYTE *dst,BYTE *src,BYTE n);
+extern void Sicom_BcdToU16(BYTE *bcd,BYTE * buf);
+extern void Sicom_CharToAcii(BYTE *charbuff,uint8 len);
+extern void Sicom_U16ToBcd(BYTE *bcd,BYTE * buf);
+extern State Sicom_MemSet(BYTE *dst,BYTE ch,uint32 length);
+
+extern uint32 Sicom_NumberCharToUint(BYTE *charbuff,uint8 len);
+#endif

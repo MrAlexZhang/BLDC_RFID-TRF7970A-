@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>yaocaoqudong/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>330</Column0><Column1>3</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+    <Build><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Tool-Output</Factory></Window><Window><Factory>Breakpoints</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build><TerminalIO/><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Tool-Output</Factory></Window><Window><Factory>Breakpoints</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log><Find-in-Files><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Tool-Output</Factory></Window><Window><Factory>Breakpoints</Factory></Window></Windows></PreferedWindows><ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-in-Files><Tool-Output><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Breakpoints</Factory></Window></Windows></PreferedWindows></Tool-Output><Disassembly><MixedMode>1</MixedMode><CodeCovShow>1</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly><Breakpoints><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Tool-Output</Factory></Window></Windows></PreferedWindows></Breakpoints></Static>
+    <Windows>
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-21003-22352</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>yaocaoqudong</ExpandedNode><ExpandedNode>yaocaoqudong/Output</ExpandedNode><ExpandedNode>yaocaoqudong/Output/yaocaoqudong.out</ExpandedNode><ExpandedNode>yaocaoqudong/RFID</ExpandedNode><ExpandedNode>yaocaoqudong/USER</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-18565-15923</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-27222-15966</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\hardware.h</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>3065</SelStart><SelEnd>3065</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER\Globe.h</Filename><XPos>0</XPos><YPos>11</YPos><SelStart>739</SelStart><SelEnd>739</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER\Main.c</Filename><XPos>0</XPos><YPos>37</YPos><SelStart>1181</SelStart><SelEnd>1203</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER\SystemInit.C</Filename><XPos>0</XPos><YPos>256</YPos><SelStart>5070</SelStart><SelEnd>10311</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\trf796x.c</Filename><XPos>0</XPos><YPos>134</YPos><SelStart>3740</SelStart><SelEnd>3740</SelEnd></Tab><ActiveTab>4</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\spi.c</Filename><XPos>0</XPos><YPos>427</YPos><SelStart>10831</SelStart><SelEnd>10831</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\trf796x.h</Filename><XPos>0</XPos><YPos>40</YPos><SelStart>1844</SelStart><SelEnd>1861</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\iso15693.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>757</SelStart><SelEnd>757</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\RFID\iso14443a.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>642</SelStart><SelEnd>642</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER\can.c</Filename><XPos>0</XPos><YPos>221</YPos><SelStart>7243</SelStart><SelEnd>7243</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LIB\src\stm8s_gpio.c</Filename><XPos>0</XPos><YPos>186</YPos><SelStart>7227</SelStart><SelEnd>7292</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LIB\src\stm8s_tim1.c</Filename><XPos>0</XPos><YPos>100</YPos><SelStart>4355</SelStart><SelEnd>4355</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER\Dirver.c</Filename><XPos>0</XPos><YPos>178</YPos><SelStart>2454</SelStart><SelEnd>2454</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER\Dirver.h</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>929</SelStart><SelEnd>929</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER\can.h</Filename><XPos>0</XPos><YPos>75</YPos><SelStart>2492</SelStart><SelEnd>2492</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\USER\SystemInit.h</Filename><XPos>0</XPos><YPos>98</YPos><SelStart>3502</SelStart><SelEnd>3502</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LIB\inc\stm8s_spi.h</Filename><XPos>0</XPos><YPos>69</YPos><SelStart>3017</SelStart><SelEnd>3040</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0267db10><key>iaridepm.enu1</key></Toolbar-0267db10></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>585</Bottom><Right>397</Right><x>-2</x><y>-2</y><xscreen>1085</xscreen><yscreen>74</yscreen><sizeHorzCX>753472</sizeHorzCX><sizeHorzCY>90465</sizeHorzCY><sizeVertCX>277083</sizeVertCX><sizeVertCY>717604</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>188</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>190</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>232274</sizeHorzCY><sizeVertCX>112500</sizeVertCX><sizeVertCY>124694</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

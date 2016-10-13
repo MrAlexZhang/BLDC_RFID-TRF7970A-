@@ -1,0 +1,2145 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>374555053</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\inoutport\inoutport.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_adc2.c</file>
+      <file>$PROJ_DIR$\motor_driver\Motorcontral.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_awu.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_beep.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_can.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_clk.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_exti.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_flash.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_gpio.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_i2c.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_itc.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_iwdg.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_rst.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_spi.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_tim1.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_tim2.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_tim3.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_tim4.c</file>
+      <file>$PROJ_DIR$\LIB\src\stm8s_wwdg.c</file>
+      <file>$PROJ_DIR$\motor_driver\BLDCcontral.c</file>
+      <file>$PROJ_DIR$\RFID\felica.c</file>
+      <file>$PROJ_DIR$\RFID\highdata.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_lcd.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_port.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_opt.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_vtimer.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\stm8_interrupt_vector.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\vdev.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\vdev_callbacks.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\vdev_ios.c</file>
+      <file>$PROJ_DIR$\USER\can.c</file>
+      <file>$PROJ_DIR$\USER\Main.c</file>
+      <file>$PROJ_DIR$\USER\SystemInit.C</file>
+      <file>$PROJ_DIR$\RFID\main.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_BLDC_timers.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_display.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_clk.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_BLDC_Motor_Param.h</file>
+      <file>$PROJ_DIR$\RFID\types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SystemInit.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_exti.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_clk.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\vdev_callbacks.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_tim1.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_dev.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_lcd.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\host.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\STM8_RFID_BLDC_MOTOR_DRIVER.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\epc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_keys.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_rst.pbi</file>
+      <file>$PROJ_DIR$\RFID\uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\trf796x.o</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\param\MC_stm8s_BLDC_param.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BLDCcontral.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\can.o</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_display.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iso15693.pbi</file>
+      <file>$PROJ_DIR$\USER\Dirver.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM8_RFID_BLDC_MOTOR_DRIVER.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\initiator.o</file>
+      <file>$PROJ_DIR$\RFID\initiator.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\param\MC_stm8s_clk_param.h</file>
+      <file>$PROJ_DIR$\inputport\inoutport.c</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_can.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_User_Interface.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_beep.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.pbi</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_BLDC_conf.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_tacho.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_clk.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\vdev.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\trf796x.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vdev.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tag.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\highdata.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nfc.pbi</file>
+      <file>$PROJ_DIR$\USER\AD_DA.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_vtimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\can.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_vtimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_display.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_vtimer.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_DAC.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\vdev_ios.h</file>
+      <file>$PROJ_DIR$\RFID\highdata.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_rst.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_BLDC_User_Interface_Param.h</file>
+      <file>$PROJ_DIR$\lnkstm8s208r8.icf</file>
+      <file>$PROJ_DIR$\RFID\felica.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_uart3.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\felica.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nfc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\target.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_port.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.o</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_User_Interface.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\initiator.pbi</file>
+      <file>$PROJ_DIR$\RFID\tag.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_tim2.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\trf797x.pbi</file>
+      <file>$PROJ_DIR$\RFID\trf797x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_wwdg.h</file>
+      <file>$PROJ_DIR$\USER\Globe.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tag.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\iso14443b.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_BLDC_Drive.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim2.o</file>
+      <file>$PROJ_DIR$\RFID\nfc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dirver.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\parallel.pbi</file>
+      <file>$PROJ_DIR$\RFID\host.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vdev_callbacks.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_BLDC_type.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\STM8_RFID_BLDC_MOTOR_DRIVER.bin</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Motorcontral.o</file>
+      <file>$PROJ_DIR$\RFID\automatic.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_Keys.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_awu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iso14443b.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_flash.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\highdata.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_tacho.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\iso14443a.pbi</file>
+      <file>$PROJ_DIR$\RFID\14443.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim3.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\AD_DA.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\automatic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SystemInit.pbi</file>
+      <file>$PROJ_DIR$\RFID\iso14443a.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\automatic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\inputport.o</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8mmd.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_exti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_wwdg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\14443.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_adc2.o</file>
+      <file>$PROJ_DIR$\RFID\anticollision.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\anticollision.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\iso15693.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_it.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.o</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\param\vdev_param.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_opt.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_vtimer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dirver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_can.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_BLDC_Drive.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_StateMachine.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tiris.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_pid_regulators.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_pid_regulators.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vdev_ios.o</file>
+      <file>$PROJ_DIR$\motor_driver\BLDCcontral.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\param\MC_stm8s_hall_param.h</file>
+      <file>$PROJ_DIR$\inputport\inoutport.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_opt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\inputport.pbi</file>
+      <file>$PROJ_DIR$\RFID\tiris.c</file>
+      <file>$PROJ_DIR$\RFID\globals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_awu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_flash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\STM8_RFID_BLDC_MOTOR_DRIVER.map</file>
+      <file>$PROJ_DIR$\inputport\inputport.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_wwdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_StateMachine.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_tim4.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_keys.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\inoutport.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_tacho.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_i2c.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_adc2.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim2.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_vtimer.o</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_BLDC_Drive_Param.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_hall_param.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_ControlStage_param.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_ACIM_conf.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_keys.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\trf797x.o</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_Type.h</file>
+      <file>$PROJ_DIR$\RFID\iso15693.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_display.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_BLDC_Motor.o</file>
+      <file>$PROJ_DIR$\RFID\tiris.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_tim3.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_User_Interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\felica.pbi</file>
+      <file>$PROJ_DIR$\RFID\iso14443b.h</file>
+      <file>$PROJ_DIR$\RFID\automatic.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_Keys.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_opt.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_clk.o</file>
+      <file>$PROJ_DIR$\RFID\parallel.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vdev_ios.pbi</file>
+      <file>$PROJ_DIR$\RFID\hardware.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vdev_callbacks.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8mmn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_awu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_BLDC_drive.pbi</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_PowerStage_param.h</file>
+      <file>$PROJ_DIR$\RFID\trf796x.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\mc_bldc_motor.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_iwdg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\type2.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\iso14443a.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_exti.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_display.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_itc.o</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\mc_statemachine.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\inoutport.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_uart1.h</file>
+      <file>$PROJ_DIR$\motor_driver\motorcontral.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_flash.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\anticollision.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_i2c.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_BLDC_User_Interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_beep.o</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\param\MC_stm8s_port_param.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_rst.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_dev.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Motorcontral.pbi</file>
+      <file>$PROJ_DIR$\RFID\mcu.h</file>
+      <file>$PROJ_DIR$\RFID\trf796x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_DAC.pbi</file>
+      <file>$PROJ_DIR$\USER\SystemInit.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_beep.pbi</file>
+      <file>$PROJ_DIR$\USER\Dirver.h</file>
+      <file>$PROJ_DIR$\USER\AD_DA.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_iwdg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_BLDC_drive.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tiris.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\epc.o</file>
+      <file>$PROJ_DIR$\RFID\epc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_Faults.h</file>
+      <file>$PROJ_DIR$\RFID\mcu.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_Keys.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_display.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\dev_type.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_port.h</file>
+      <file>$PROJ_DIR$\RFID\hardware.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\BLDCcontral.o</file>
+      <file>$PROJ_DIR$\RFID\target.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_dev.o</file>
+      <file>$PROJ_DIR$\USER\Can.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_iwdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\AD_DA.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_itc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_tim3.pbi</file>
+      <file>$PROJ_DIR$\inoutport\inoutport.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_itc.pbi</file>
+      <file>$PROJ_DIR$\RFID\anticollision.c</file>
+      <file>$PROJ_DIR$\RFID\spi.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_pid_regulators.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_can.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_stm8s_vtimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\target.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_conf.h</file>
+      <file>$PROJ_DIR$\RFID\type2.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\host.o</file>
+      <file>$PROJ_DIR$\RFID\epc.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\param\MC_tacho_param.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\param\MC_stm8s_BLDC_conf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_BLDC_User_Interface.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\type2.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8mmn.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\MC_BLDC_Motor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.pbi</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\inc\MC_dev_drive.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_adc2.pbi</file>
+      <file>$PROJ_DIR$\RFID\14443.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\inc\MC_Drive.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vdev.o</file>
+      <file>$PROJ_DIR$\RFID\host.c</file>
+      <file>$PROJ_DIR$\RFID\initiator.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_BLDC_Motor.c</file>
+      <file>$PROJ_DIR$\RFID\iso14443a.c</file>
+      <file>$PROJ_DIR$\RFID\iso14443b.c</file>
+      <file>$PROJ_DIR$\RFID\iso15693.c</file>
+      <file>$PROJ_DIR$\RFID\nfc.c</file>
+      <file>$PROJ_DIR$\RFID\parallel.c</file>
+      <file>$PROJ_DIR$\RFID\spi.c</file>
+      <file>$PROJ_DIR$\RFID\tag.c</file>
+      <file>$PROJ_DIR$\RFID\target.c</file>
+      <file>$PROJ_DIR$\RFID\trf797x.c</file>
+      <file>$PROJ_DIR$\RFID\type2.c</file>
+      <file>$PROJ_DIR$\RFID\uart.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_BLDC_Drive.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_BLDC_User_Interface.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_dev.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_display.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_Keys.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_pid_regulators.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_StateMachine.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_tacho.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_User_Interface.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_vtimer.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_BLDC_drive.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_display.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_clk.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_DAC.c</file>
+      <file>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_keys.c</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8mld.a</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8mln.a</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8mln.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\inoutport\inoutport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_adc2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192 88 296 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 192 88 296 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\motor_driver\Motorcontral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_awu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132 88 296 192 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 132 88 296 192 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_beep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 249</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 88 296 192 132 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 72 88 296 192 132 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_can.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 88 296 192 132 72 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 88 296 192 132 72 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_clk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 88 296 192 132 72 70 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 37 88 296 192 132 72 70 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 88 296 192 132 72 70 37 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 43 88 296 192 132 72 70 37 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134 88 296 192 132 72 70 37 43 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 134 88 296 192 132 72 70 37 43 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 213</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 88 296 192 132 72 70 37 43 134 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 195 88 296 192 132 72 70 37 43 134 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247 88 296 192 132 72 70 37 43 134 195 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 247 88 296 192 132 72 70 37 43 134 195 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_itc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 285 88 296 192 132 72 70 37 43 134 195 247 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 285 88 296 192 132 72 70 37 43 134 195 247 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 283</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263 88 296 192 132 72 70 37 43 134 195 247 285 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 263 88 296 192 132 72 70 37 43 134 195 247 285 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_rst.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 251</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 88 296 192 132 72 70 37 43 134 195 247 285 263 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 93 88 296 192 132 72 70 37 43 134 195 247 285 263 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193 88 296 192 132 72 70 37 43 134 195 247 285 263 93 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 193 88 296 192 132 72 70 37 43 134 195 247 285 263 93 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_tim1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 280</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 47 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_tim2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 107 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_tim3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 208 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_tim4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 186 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\src\stm8s_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 112 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\motor_driver\BLDCcontral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 277</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\felica.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 97 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\highdata.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 92 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 52 181</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 250 199 68 229</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 250 199 68 229 275</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 250 199 68 229 275</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_opt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 158 68 229 199 250 301 74 198 171</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 158 68 229 199 250 301 74 198 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_vtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 68 159 274 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 68 159 274 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\stm8_interrupt_vector.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 306</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 155 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\vdev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 312</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 91 46 77 157</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 91 46 77 157</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\vdev_callbacks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 46 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\vdev_ios.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 199 68 250 229</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 91 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 199 68 250 229</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\can.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\Main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\SystemInit.C</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\STM8_RFID_BLDC_MOTOR_DRIVER.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 96 277 162 206 131 164 71 281 87 167 264 217 187 173 102 196 189 84 174 129 41 60 99 135 298 66 188 234 116 153 100 279 150 227 249 161 225 235 245 213 191 237 283 251 165 280 118 139 156 183 115 101 202 233 128 312 124 169 343 342</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\Dirver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 224 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 259 222 123 256 39 257 143 56 218 290 211 204 244</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 224 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 222 123 256 39 257 143 56 218 290 211 204</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\inputport\inoutport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 224 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 259 222 123 256 39 257 143 56 218 290 211 204 244 170</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 224 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 259 222 123 256 39 257 143 56 218 290 211 204 244 170 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\AD_DA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 284</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 64 239 253 216 121 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 222 39 123 256 257 143 56 218 290 211 204</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113 64 239 253 216 121 224 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 222 123 256 39 257 143 56 218 290 211 204</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\tiris.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 265</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 207 218 310 239 216 121 224 94 271 219 241 111 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 123 151 290 138 267 130</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\inputport\inputport.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\automatic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 310 239 216 121 94 271 219 241 111 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 218 123 151 290 207 138 267</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 130 310 239 216 121 224 94 271 219 241 111 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 218 123 151 290 207 138 267</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\trf796x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257 242 239 216 121 224 94 271 219 241 143 256 39 56 218 290 222 310 111 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 257 242 239 216 121 224 94 271 219 241 143 256 39 56 218 290 222 310 111 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\mcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256 222 39 113 64 239 253 216 121 224 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 256 222 39 113 64 239 253 216 121 224 94 271 219 125 268 241 242 310 111 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\hardware.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 222 310 239 216 121 224 94 271 219 241 111 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 218 123 151 290 207 138 267 130</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\anticollision.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 246</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151 310 239 216 121 94 271 219 241 111 218 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 207 290 123 138 267 130</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 151 310 239 216 121 224 94 271 219 241 111 218 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 123 290 207 138 267 130</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\epc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 266</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267 218 310 239 216 121 94 271 219 241 111 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 151 290 123 207 138 130</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 267 218 310 239 216 121 224 94 271 219 241 111 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 123 151 290 207 138 130</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\14443.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 218 310 239 216 121 94 271 219 241 111 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 151 290 123 207 267 130</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 138 218 310 239 216 121 224 94 271 219 241 111 222 177 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 282 261 259 262 123 151 290 207 267 130</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\host.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 298</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 256 39 110 218 290 56 92 143 211 204 97 297 106 119 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 123 256 39 110 218 290 56 92 143 211 204 97 297 106 119 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\initiator.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 256 39 119 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 67 256 39 119 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_BLDC_Motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 126 203 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 38 197 74 198 291 68 229</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 231 126 203 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 38 197 74 198 291 68 229</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\iso14443a.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 143 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\iso14443b.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 211 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\iso15693.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 204 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\nfc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 256 39 110 218 290 56 67 278 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 119 256 39 110 218 290 56 67 278 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\parallel.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 256 39 110 290 56 222 310 239 216 121 224 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 218 256 39 110 290 56 222 310 239 216 121 224 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 279</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290 256 39 110 218 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 290 256 39 110 218 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\tag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 256 39 119 110 218 290 56 242 239 216 121 344 94 271 219 241 222 310 111 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 106 256 39 119 110 218 290 56 242 239 216 121 344 94 271 219 241 222 310 111 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\target.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 256 39 119 110 218 290 56 242 239 216 121 344 94 271 219 241 222 310 111 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 278 256 39 119 110 218 290 56 242 239 216 121 344 94 271 219 241 222 310 111 113 64 253 125 268 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\trf797x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 256 39 218 290 56 119 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 110 256 39 218 290 56 119 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\type2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 297 256 39 110 218 290 56 222 310 239 216 121 344 94 271 219 241 111 113 64 253 125 268 242 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 259 282 123 143 211 204 244 170 287 238 231 126 203 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFID\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 256 39 110 218 290 268 239 216 121 344 94 271 219 241</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 56 256 39 110 218 290 268 239 216 121 344 94 271 219 241</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_BLDC_Drive.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 311 77 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 157 48 203 307 231 126 74 198 197 199 68 250 229 35 291 159 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 311 77 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 157 48 203 307 231 126 74 198 197 199 68 250 229 35 291 159 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_BLDC_User_Interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 302</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 95 199 68 250 229 231 126 203 38 74 198 197</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 104 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 95 199 68 250 229 231 126 203 38 74 198 197</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_dev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 281</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 203 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 158 76 275 199 68 250 229 201 307 89</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 48 203 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 158 76 275 199 68 250 229 201 307 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 104 159</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 273 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 104 159</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_Keys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272 104 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 159 199 68 250 229</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 272 104 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 159 199 68 250 229</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_pid_regulators.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 291 203 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 291 203 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_StateMachine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 203 274 159 272 104 77 157 199 68 250 229 48 311 269 273 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 231 126</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 238 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 203 274 159 272 104 77 157 199 68 250 229 48 311 269 273 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 231 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_tacho.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 300 200 199 68 250 229</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 75 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 300 200 199 68 250 229</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_User_Interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 269 159</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 104 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 77 157 269 159</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_vtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 159 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_BLDC_drive.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 264</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 307 77 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 157 48 203 68 58 199 250 229 269 159 35 231 126 38 197 74 198 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 171</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 307 77 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 157 48 203 68 58 199 250 229 269 159 35 231 126 38 197 74 198 113 64 239 253 216 121 344 94 271 219 125 268 241 242 310 111 259 282 222 123 256 39 110 218 290 56 143 211 204 244 170 287 238 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 61 226 239 216 121 224 94 271 219 241 77 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 157</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_clk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 217</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 76 68</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 76 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_DAC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 199 68 250 229</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 90 274 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_keys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 199 68 250 229</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 201 88 296 192 132 72 70 37 43 134 195 247 285 263 93 193 47 107 208 186 243 98 112 154 199 68 250 229</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_lcd.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\stm8_interrupt_vector.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\USER\Dirver.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\USER\AD_DA.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\RFID\tiris.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\RFID\anticollision.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\RFID\epc.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\RFID\14443.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\RFID\parallel.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\stm8_mc_library\MC_FWLIB_SCALAR\src\MC_BLDC_User_Interface.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_display.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\stm8_mc_library\STM8_MC_FRAMEWORK\src\MC_stm8s_DAC.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
